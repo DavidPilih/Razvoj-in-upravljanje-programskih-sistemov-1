@@ -2,6 +2,8 @@
 
 ## Kaj bomo delali:
 
+Spletno aplikacijo.
+
 Vse temelji na konceptu kviza in je povezano v tekmovanje. 
 
 Tipi kvizov:

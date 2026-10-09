@@ -2,7 +2,7 @@
 
 ## Kaj bomo delali:
 
-Spletno aplikacijo.
+Spletno aplikacijo, ciljna skupina osnovnošolci od 7-9 razreda. Teme: zgodovina, geografija, biologija... 
 
 Vse temelji na konceptu kviza in je povezano v tekmovanje. 
 

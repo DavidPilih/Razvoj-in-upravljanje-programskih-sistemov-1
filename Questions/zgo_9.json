@@ -1,0 +1,602 @@
+[
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kje je potekala mirovna konferenca po prvi svetovni vojni leta 1919?",
+        "rezultat": "V Parizu (Versailles)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera mednarodna organizacija je bila ustanovljena po 1. svetovni vojni na pobudo predsednika Wilsona za ohranjanje miru?",
+        "rezultat": "Društvo narodov (Liga narodov)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "S katero pogodbo leta 1920 je bila določena meja med Kraljevino SHS in Italijo (Rapalska meja)?",
+        "rezultat": "Rapalska mirovna pogodba",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katere slovenske pokrajine je Italija dobila z rapalsko pogodbo?",
+        "rezultat": "Primorsko, del Notranjske, Gorico, Trst in Istro",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je potekal Koroški plebiscit, na katerem so se Korošci odločili za priključitev k Avstriji?",
+        "rezultat": "12. oktober 1920",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je Kraljevina SHS preimenovala po uvedbi šestojanuarske diktature leta 1929?",
+        "rezultat": "Kraljevina Jugoslavija",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil kralj, ki je leta 1929 razpustil parlament in uvedel diktaturo v Jugoslaviji?",
+        "rezultat": "Kralj Aleksander I. Karađorđević",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kje je bil leta 1934 izveden atentat na kralja Aleksandra Karađorđevića?",
+        "rezultat": "V Marseillu (Francija)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo organizacijo primorskih Slovencev in Hrvatov, ki se je borila proti fašističnemu nasilju v Italiji?",
+        "rezultat": "TIGR (Trst, Istra, Gorica, Rijeka)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je postal vodja fašističnega režima v Italiji po pohodu na Rim leta 1922?",
+        "rezultat": "Benito Mussolini",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bila glavna značilnost fašistične ideologije v Italiji?",
+        "rezultat": "Diktatura, enostrankarski sistem, poveličevanje naroda, militarizem in preganjanje nasprotnikov",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je v ZDA izbruhnila velika svetovna gospodarska kriza (črni četrtek/petek)?",
+        "rezultat": "1929",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je prišel na oblast v Nemčiji leta 1933 in ustanovil Tretji rajh?",
+        "rezultat": "Adolf Hitler in Nacistična stranka (NSDAP)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se imenuje Hitlerjeva avtobiografska knjiga, v kateri je razgrnil svojo rasistično ideologijo?",
+        "rezultat": "Mein Kampf (Moj boj)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo nacistične rasne zakone iz leta 1935, ki so odvzemili državljanske pravice Židom?",
+        "rezultat": "Nürnberški zakoni",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj se je zgodilo med tako imenovano 'kristalno nočjo' leta 1938 v Nemčiji?",
+        "rezultat": "Masovni pogrom, uničevanje židovskih trgovin, sinagog in zapiranje Židov",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil vodja komunistične diktature v Sovjetski zvezi od srede 20. let do leta 1953?",
+        "rezultat": "Josip Visarionovič Stalin",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo strog sovjetski sistem prisilnih delovnih taborišč v času Stalina?",
+        "rezultat": "Gulag",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero območje v Španiji je med letoma 1936 in 1939 prizadela krvava državljanska vojna?",
+        "rezultat": "Španija (general Franco proti republiki)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se imenujeta dve nemški pokrajini/državi, ki ju je Hitler priključil Tretjemu rajhu pred vojno (Anschluss 1938)?",
+        "rezultat": "Avstrija in Sudeti (Češkoslovaška)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bil Münchenski sporazum leta 1838?",
+        "rezultat": "Popuščanje zahodnih velesil Hitlerju glede odstopa Sudetov Češkoslovaške",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "S katerim paktom o nenapadanju (in tajnim protokolom o razdelitvi Poljske) sta se avgusta 1939 povezali Nemčija in SZ?",
+        "rezultat": "Pakt Hitler-Stalin (Ribbentrop-Molotov)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenovalo organizirano nasilno poitalijančevanje slovenskega prebivalstva na Primorskem pod fašizmom?",
+        "rezultat": "Poitalijančevanje (asimilacija)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo sta bila znana slovenska slikarja/literati iz medvojnega obdobja (npr. Srečko Kosovel)?",
+        "rezultat": "Srečko Kosovel (konstruktivizem), Ivan Cankar (do 1918)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil vodilni slovenski politik v Kraljevini SHS/Jugoslaviji, predsednik SLS?",
+        "rezultat": "Dr. Anton Korošec",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri dogodek 1. septembra 1939 označuje začetek druge svetovne vojne?",
+        "rezultat": "Nemški napad na Poljsko",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto se je začela druga svetovna vojna?",
+        "rezultat": "1939",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto se je končala druga svetovna vojna?",
+        "rezultat": "1945",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo nemško vojaško taktiko bliskovite vojne z uporabo tankov in letalstvo?",
+        "rezultat": "Blitzkrieg (bliskovita vojna)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdaj je potekal nemški napad na Kraljevino Jugoslavijo (napad brez napovedi vojne)?",
+        "rezultat": "6. aprila 1941",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Med katere štiri okupatorje je bilo razdeljeno slovensko ozemlje po aprilu 1941?",
+        "rezultat": "Nemčija, Italija, Madžarska in Hrvaška (NDH)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero slovensko ozemlje si je priključil Tretji rajh (Nemčija)?",
+        "rezultat": "Gorenjsko, Štajersko in del Mežiške doline",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero slovensko ozemlje je zasedla Italija in iz njega ustvarila Ljubljansko pokrajino?",
+        "rezultat": "Dolenjsko, Notranjsko in Ljubljano",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero slovensko pokrajino je zasedla Madžarska?",
+        "rezultat": "Prekmurje",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdaj je bila v Ljubljani ustanovljena Protiimperialištna / Osvobodilna fronta (OF) slovenskega naroda?",
+        "rezultat": "26. aprila 1941 (praznujemo 27. aprila)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo so bili ključni ustanovitelji Osvobodilne fronte?",
+        "rezultat": "KPS (komunisti), krščanski socialisti, sokoli in kulturni delavci",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako so se imenovale vojaške enote Osvobodilne fronte, ki so izvajale oborožen odpor proti okupatorju?",
+        "rezultat": "Partizani (Partizanska vojska)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenovalo tajno partizansko glasilo/časopis, ki je izhajal med vojno na Slovenskem?",
+        "rezultat": "Slovenski poročevalec",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo nemški napad na Sovjetsko zvezo 22. junija 1941?",
+        "rezultat": "Operacija Barbarossa",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri napad Japonske na ameriško vojaško bazo 7. decembra 1941 je privedel do vstopa ZDA v vojno?",
+        "rezultat": "Napad na Pearl Harbor",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera bitka v Sovjetski zvezi (1942–1943) velja za odločilno prelomnico na vzhodni fronti?",
+        "rezultat": "Bitka za Stalingrad",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdaj je kapitulirala fašistična Italija?",
+        "rezultat": "8. septembra 1943",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj se je zgodilo z Ljubljansko pokrajino po kapitulaciji Italije leta 1943?",
+        "rezultat": "Zasedli so jo Nemci (postala del Operativne cone Jadransko primorje)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je vodil protipartizanske enote na Slovenskem pod nemško okupacijo (Vaške straže, Domobranci)?",
+        "rezultat": "Slovensko domobranstvo (general Leon Rupnik)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bil holokavst (Šoa)?",
+        "rezultat": "Sistematični nacistični genocid nad približno 6 milijoni Židov in drugimi manjšinami",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Navedi vsaj dve najbolj zloglasni nacistični uničevalni taborišči.",
+        "rezultat": "Auschwitz-Birkenau, Dachau, Mauthausen, Treblinka",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri dogodek 6. junija 1944 označuje odprtje druge fronte v zahodni Evropi (D-Day)?",
+        "rezultat": "Izkrcanje zaveznikov v Normandiji",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil vrhovni komandant jugoslovanskih partizanskih sil med vojno?",
+        "rezultat": "Josip Broz - Tito",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdaj je potekalo 2. zasedanje AVNOJ-a v Jajcu, kjer so postavili temelj nove federativne Jugoslavije?",
+        "rezultat": "29. novembra 1943",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdaj je bil osvobojen Trst in kdaj Ljubljana ob koncu vojne na Slovenskem?",
+        "rezultat": "Trst 1. maja 1945, Ljubljana 9. maja 1945",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj označuje 8./9. maj 1945 v Evropi?",
+        "rezultat": "Konec druge svetovne vojne v Evropi (brezpogojna kapitulacija Nemčije)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "S katerim dogodkom v avgustu 1945 se je končala druga svetovna vojna na Pacifiku/svetu?",
+        "rezultat": "Z odvrženjem atomskih bomb na Hirošimo in Nagasaki",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo poboje domobrancev in civilistov brez sojenja neposredno po koncu vojne maja/junija 1945?",
+        "rezultat": "Povojni zunajsodni poboji (povojna povračilna dejanja)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenovala partizanska bolnišnica v pasijonski soteski pri Cerknem, ki je danes spomenik?",
+        "rezultat": "Partizanska bolnica Franja",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bila 'žična zapora' okoli Ljubljane med vojno?",
+        "rezultat": "Italijani so celotno Ljubljano obdali z bodikavo žico in bunkerji",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera mednarodna organizacija je bila ustanovljena oktobra 1945 v San Franciscu za ohranitev miru?",
+        "rezultat": "Organizacija združenih narodov (OZN)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri sta bili dve vodilni supersili v obdobju hladne vojne?",
+        "rezultat": "Združene države Amerike (ZDA) in Sovjetska zveza (SZ)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj pomeni izraz hladna vojna?",
+        "rezultat": "Obdobje politične, vojaške in gospodarske napetosti med zahodnim in vzhodnim blokom brez neposrednega spopada velesil",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako je Winston Churchill poimenoval mejo, ki je razdelila Evropo na kapitalistični in komunistični del?",
+        "rezultat": "'Železna zavesa'",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bil Marshallov plan?",
+        "rezultat": "Ameriška gospodarska pomoč za obnovo porušene Evrope po drugi svetovni vojni",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero vojaško zavezništvo pod vodstvom ZDA je bilo ustanovljeno leta 1949?",
+        "rezultat": "NATO (Severnoatlantsko zavezništvo)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero vojaško zavezništvo komunističnih držav je ustanovila Sovjetska zveza leta 1955?",
+        "rezultat": "Varšavski pakt",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "V kateri azijski državi je med letoma 1950 in 1953 potekala krvava vojna med severom (komunističnim) in jugom?",
+        "rezultat": "Koreja (Korejska vojna)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri krizi v oktobru 1962 velja za trenutek, ko je bil svet najbližje jedrski vojni?",
+        "rezultat": "Kubanska obteževalna/raketna kriza",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "V kateri azijski državi so ZDA med 1965 in 1973 doživele hud vojaški poraz proti komunističnim gerilcem?",
+        "rezultat": "Vietnam (Vietnamska vojna)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je padel Berlinski zid, ki je bil simbol hladno-vojne razdelitve Nemčije?",
+        "rezultat": "1989 (9. november)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je uradno razpadla Sovjetska zveza (SZ)?",
+        "rezultat": "1991",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil sovjetski voditelj, ki je uvedel reformi glasnost (odprtost) in perestrojko (preoblikovanje)?",
+        "rezultat": "Mihail Gorbačov",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se imenuje evropska zveza, ki se je razvila iz Evropske skupnosti za premog in jeklo (1951)?",
+        "rezultat": "Evropska unija (EU)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto sta bila odvržena prva umetna satelit (Sputnik 1) in človek v vesolje (Jurij Gagarin)?",
+        "rezultat": "1957 (Sputnik) in 1961 (Gagarin)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil prvi človek, ki je stopil na Luno leta 1969?",
+        "rezultat": "Neil Armstrong",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bil proces dekolonizacije po 2. svetovni vojni?",
+        "rezultat": "Osvobajanje nekdanjih kolonij v Aziji in Afriki ter nastanek samostojnih držav",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil vodja nenasilnega boja za neodvisnost Indije izpod britanske oblasti?",
+        "rezultat": "Mahatma Gandhi",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenovala politika rasne segregacije in ločevanja temnopoltih v Južni Afriki?",
+        "rezultat": "Apartheid",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil najslavnejši borec proti apartheidu in kasneje predsednik Južne Afrike?",
+        "rezultat": "Nelson Mandela",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenovala nova država po vojni pod vodstvom komunistične partije (od 1945/1946)?",
+        "rezultat": "Federativna ljudska republika Jugoslavija (FLRJ), kasneje SFRJ",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri spor se je zgodil leta 1948 med Titom in Stalinom?",
+        "rezultat": "Spor z Informbirojem (resolucija Informbiroja)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kam so jugoslovanske oblasti po roku 1948 pošiljale politične zapornike (staliniste)?",
+        "rezultat": "Na Goli otok",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenoval jugoslovanski gospodarski in družbeni model, ki so ga uvedli v 1950-ih?",
+        "rezultat": "Delavsko samoupravljanje",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero mednarodno gibanje držav je ustanovil Tito skupaj z liderji Indije (Nehru) in Egipta (Naser)?",
+        "rezultat": "Gibanje neuvrščenih",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je bila sprejeta zadnja ustava SFRJ, ki je določala visoko stopnjo avtonomije republik?",
+        "rezultat": "1974",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je umrl dolgotrajni predsednik Jugoslavije Josip Broz - Tito?",
+        "rezultat": "4. maja 1980",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kakšne težave so prizadele Jugoslavijo v 1980-ih letih po Titovi smrti?",
+        "rezultat": "Huda gospodarska kriza, visoka inflacija, zadolženost in rast nacionalizmov",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil srbski politik, ki je konec 80. let spodbujal velikosrbski nacionalizem in odvzem avtonomije Kosovu?",
+        "rezultat": "Slobodan Milošević",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bila Pisateljska ustava leta 1988 na Slovenskem?",
+        "rezultat": "Predlog slovenske ustave, ki so jo pripravili slovenski razpravljavci in pisatelji za samostojno državo",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bila afera JBTZ (proces proti četverici) leta 1988?",
+        "rezultat": "Arest in sojenje Janezu Janši, Ivanu Borštnerju, Davidu Tasiću in Franciju Zavrlu pred vojaškim sodiščem v srbskem jeziku",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero civilno-družbeno gibanje je nastalo leta 1888 v obrambo človekovih pravic v aferi JBTZ?",
+        "rezultat": "Odbor za varstvo človekovih pravic (vodi Igor Bavčar)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kje in kdaj je bila prebrana Majniška deklaracija 1989, ki je zahtevala suvereno državo slovenskega naroda?",
+        "rezultat": "8. maja 1989 na Kongresnem trgu v Ljubljani (prebral Tone Pavček)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenovala koalicija demokratičnih strank, ki je zmagala na prvih večstrankarskih volitvah v Sloveniji aprila 1990?",
+        "rezultat": "DEMOS (Demokratična opozicija Slovenije)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil predsednik vlade DEMOS-a leta 1990?",
+        "rezultat": "Lojze Peterle",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je postal predsednik predsedstva Republike Slovenije po volitvah leta 1990?",
+        "rezultat": "Milan Kučan",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri datum velja za plebiscit o samostojnosti in neodvisnosti Slovenije?",
+        "rezultat": "23. december 1990 (razglasitev 26. decembra - dan samostojnosti in enotnosti)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Koliko odstotkov volilcev je na plebiscitu 1990 glasovalo ZA samostojno Slovenijo?",
+        "rezultat": "88,5 % vseh volilnih upravičencev (oz. 95 % prisotnih)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdaj je Slovenija uradno razglasila svojo samostojnost in neodvisnost?",
+        "rezultat": "25. junija 1991",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdaj se je z napadom Jugoslovanske ljudske armade (JLA) začela osamosvojitvena vojna za Slovenijo?",
+        "rezultat": "27. junija 1991",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Koliko dni je trajala osamosvojitvena vojna v Sloveniji?",
+        "rezultat": "10 dni (desetdnevna vojna)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "S katerim sporazumom 7. julija 1991 so bila končana sovražnosti in uveden 3-mesečni moratorij na samostojnost?",
+        "rezultat": "Brionska deklaracija (Brionski sporazum)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri datum velja za dan, ko je zadnji vojak JLA zapustil slovensko ozemlje (Luko Koper)?",
+        "rezultat": "25. oktober 1991",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto in datum je bila sprejeta prva Ustava samostojne Republike Slovenije?",
+        "rezultat": "23. december 1991",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdaj (leto) je Slovenija postala punopravna članica Evropske unije (EU) in zveze NATO?",
+        "rezultat": "Leta 2004 (1. maj EU, marec NATO)",
+        "vrednost vprašanja": 1
+    }
+]

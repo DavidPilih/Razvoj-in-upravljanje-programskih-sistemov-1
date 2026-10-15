@@ -1,0 +1,602 @@
+[
+    {
+        "predmet": "matematika",
+        "vprašanje": "Razstavi izraz: x² - 16",
+        "rezultat": "(x - 4)(x + 4)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Razstavi izraz: 9x² - y²",
+        "rezultat": "(3x - y)(3x + y)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izpostavi skupni faktor: 3x³ - 6x²",
+        "rezultat": "3x²(x - 2)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Razstavi kvadrat dvočlenika: x² + 6x + 9",
+        "rezultat": "(x + 3)²",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Razstavi kvadrat dvočlenika: x² - 10x + 25",
+        "rezultat": "(x - 5)²",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi algebrski ulomek: (x² - 4) / (x - 2)",
+        "rezultat": "x + 2",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi izraz: (x + 2)² - x(x + 4)",
+        "rezultat": "4",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Razstavi kvadratno trinomo: x² + 5x + 6",
+        "rezultat": "(x + 2)(x + 3)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Razstavi z izpostavljanjem: 2a(x + y) - b(x + y)",
+        "rezultat": "(2a - b)(x + y)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi: 3/x + 2/x",
+        "rezultat": "5/x",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi ulomek: 2x / 4x²",
+        "rezultat": "1 / 2x",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj produkt: (x - 3)(x + 3)",
+        "rezultat": "x² - 9",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši v obliki kvadrata binoma: 4x² - 12x + 9",
+        "rezultat": "(2x - 3)²",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Razstavi: x³ - x",
+        "rezultat": "x(x - 1)(x + 1)",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi: (2x)³ / 4x",
+        "rezultat": "2x²",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poišči najmanjši skupni večkratnik izrazov x in x(x+1)",
+        "rezultat": "x(x + 1)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi ulomek: (3x + 6) / 3",
+        "rezultat": "x + 2",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Razstavi: x² - 7x + 12",
+        "rezultat": "(x - 3)(x - 4)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi: (a² - b²) / (a + b)",
+        "rezultat": "a - b",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj vrednost algebrskega ulomka (x + 1)/(x - 1) za x = 3",
+        "rezultat": "2",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši kvadratno enačbo: x² - 9 = 0",
+        "rezultat": "x₁ = 3, x₂ = -3",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši kvadratno enačbo: x² - 5x = 0",
+        "rezultat": "x₁ = 0, x₂ = 5",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši kvadratno enačbo: x² - 5x + 6 = 0",
+        "rezultat": "x₁ = 2, x₂ = 3",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kolika je vrednost diskriminante D za enačbo ax² + bx + c = 0?",
+        "rezultat": "b² - 4ac",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši kvadratno enačbo z diskriminanto: x² + 2x - 3 = 0",
+        "rezultat": "x₁ = 1, x₂ = -3",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko rešitev ima kvadratna enačba, če je diskriminanta D > 0?",
+        "rezultat": "Dve različni rešitvi",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko rešitev ima kvadratna enačba, če je diskriminanta D = 0?",
+        "rezultat": "Eno rešitev (dve enaki)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko rešitev ima kvadratna enačba, če je diskriminanta D < 0?",
+        "rezultat": "Ni rešitev v množici realnih števil",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 2x² - 8 = 0",
+        "rezultat": "x₁ = 2, x₂ = -2",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: x² + 4 = 0",
+        "rezultat": "Ni realnih rešitev",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši Vietovi pravili za x² + px + q = 0 (vsota x₁ + x₂ in produkt x₁ * x₂)",
+        "rezultat": "x₁ + x₂ = -p, x₁ * x₂ = q",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši kvadratno enačbo: x² - 4x + 4 = 0",
+        "rezultat": "x₁ = x₂ = 2",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 3x² - 12x = 0",
+        "rezultat": "x₁ = 0, x₂ = 4",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši: (x - 2)(x + 3) = 0",
+        "rezultat": "x₁ = 2, x₂ = -3",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: x² + 7x + 10 = 0",
+        "rezultat": "x₁ = -2, x₂ = -5",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poišči ničle kvadratne funkcije y = x² - 4x + 3",
+        "rezultat": "x₁ = 1, x₂ = 3",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: x² - 6x + 9 = 0",
+        "rezultat": "x = 3",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši teme parabole y = x²",
+        "rezultat": "(0, 0)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši kvadratno enačbo: 4x² - 9 = 0",
+        "rezultat": "x₁ = 1.5, x₂ = -1.5",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj diskriminanto enačbe x² + 3x + 2 = 0",
+        "rezultat": "1",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj je graf kvadratne funkcije?",
+        "rezultat": "Parabola",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kako je usmerjena parabola y = -2x²?",
+        "rezultat": "Navzdol (ker je vodilni koeficient negativen)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poišči presečišče parabole y = x² - 4 z osjo y",
+        "rezultat": "(0, -4)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj določa predznak koeficienta a pri funkciji y = ax² + bx + c?",
+        "rezultat": "Ukrivljenost oz. usmerjenost parabole",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši koordinate temena parabole y = (x - 2)² + 3",
+        "rezultat": "(2, 3)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Ali ima funkcija y = 2x² + 5 minimum ali maksimum?",
+        "rezultat": "Minimum",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Ali ima funkcija y = -x² + 4 maksimum ali minimum?",
+        "rezultat": "Maksimum",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poišči ničle funkcije f(x) = x² - 1",
+        "rezultat": "x₁ = 1, x₂ = -1",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kje leži teme parabole y = x²?",
+        "rezultat": "V izhodišču (0, 0)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši enačbo premice, ki je simetrala parabole y = x² (ordinatna os)",
+        "rezultat": "x = 0",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Katera točka je ekstrem funkcije y = x² - 4?",
+        "rezultat": "(0, -4)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kakšna je y-koordinate temena parabole y = x² - 6x + 9?",
+        "rezultat": "0",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Za katero vrednost x doseže funkcija y = -(x - 1)² + 5 svoj maksimum?",
+        "rezultat": "x = 1",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kolika je vrednost maksimuma funkcije y = -(x - 1)² + 5?",
+        "rezultat": "5",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Ali graf funkcije y = x² + 2 seka os x?",
+        "rezultat": "Ne (nima realnih ničel)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kako definiramo sinus ostrega kota v pravokotnem trikotniku (nasproti ležeča / hipotenuza)?",
+        "rezultat": "Nasproti ležeča kateta deljena s hipotenuzo",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kako definiramo kosinus ostrega kota v pravokotnem trikotniku?",
+        "rezultat": "Ležeča kateta deljena s hipotenuzo",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kako definiramo tangens ostrega kota v pravokotnem trikotniku?",
+        "rezultat": "Nasproti ležeča deljena s priležečo kateto",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko znaša sin(30°)?",
+        "rezultat": "1/2 ali 0.5",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko znaša cos(60°)?",
+        "rezultat": "1/2 ali 0.5",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko znaša tg(45°)?",
+        "rezultat": "1",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko znaša sin(90°)?",
+        "rezultat": "1",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko znaša cos(0°)?",
+        "rezultat": "1",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj pravi osnovna trigonometrična identiteta: sin²(α) + cos²(α) = ?",
+        "rezultat": "1",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj tangens kota, če je sin(α) = 0.6 in cos(α) = 0.8",
+        "rezultat": "0.75 ali 3/4",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "V pravokotnem trikotniku je kateta a = 3, b = 4. Koliko je sin(α) (kjer je α nasproti a)?",
+        "rezultat": "3/5 ali 0.6",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko znaša sin(60°)?",
+        "rezultat": "√3 / 2",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko znaša cos(30°)?",
+        "rezultat": "√3 / 2",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Ali je vrednost sinusa lahko večja od 1?",
+        "rezultat": "Ne",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko znaša tg(0°)?",
+        "rezultat": "0",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj pravi Talesov izrek?",
+        "rezultat": "Kot nad premerom kroga je pravi kot (90°)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kakšna je zveza med središčnim in obodnim kotom nad istim lokom?",
+        "rezultat": "Središčni kot je dvakrat večji od obodnega kota",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko meri obodni kot, če je ustrezni središčni kot 80°?",
+        "rezultat": "40°",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko meri središčni kot, če je ustrezni obodni kot 35°?",
+        "rezultat": "70°",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Ali vsi obodni koti nad istim lokom merijo enako?",
+        "rezultat": "Da",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj ploščino kroga s polmerom r = 6 cm (pi = 3.14)",
+        "rezultat": "113.04 cm²",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj obseg kroga s premerom d = 10 cm (pi = 3.14)",
+        "rezultat": "31.4 cm",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj je tetiva krožnice?",
+        "rezultat": "Daljica, ki povezuje dve točki na krožnici",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj je premer (diametar) krožnice glede na polmer?",
+        "rezultat": "Je dvakrat daljši od polmera (d = 2r)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj dolžino krožnega loka za kot 90° v krogu s polmerom r = 4 cm (pi = 3.14)",
+        "rezultat": "6.28 cm",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj ploščino krožnega izseka za kot 60° v krogu s polmerom r = 6 cm (pi = 3.14)",
+        "rezultat": "18.84 cm²",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko meri kot v tetivnem štirikotniku, če je nasprotni kot 70°? (Vsota nasprotnih kotov)",
+        "rezultat": "110°",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kakšna je vsota nasprotnih kotov v tetivnem štirikotniku?",
+        "rezultat": "180°",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Ali je vsak pravokotni trikotnik vrisan v polkrožnico tako, da je hipotenuza premer?",
+        "rezultat": "Da (po Talesovem izreku)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj ploščino kroga, če je njegov obseg 20π cm",
+        "rezultat": "100π cm²",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj prostornino stožca s polmerom r = 3 cm in višino v = 4 cm (uporabi π)",
+        "rezultat": "12π cm³",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj površino krogle s polmerom r = 3 cm (uporabi π)",
+        "rezultat": "36π cm²",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj prostornino krogle s polmerom r = 3 cm (uporabi π)",
+        "rezultat": "36π cm³",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj je formula za prostornino piramide?",
+        "rezultat": "V = (1/3) * S_O * v",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj prostornino piramide z osnovno ploskvijo S_O = 15 cm² in višino v = 6 cm",
+        "rezultat": "30 cm³",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kolika je verjetnost, da pri metu igralne kocke pade sštevilo 6?",
+        "rezultat": "1/6",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kolika je verjetnost, da pri metu kocke pade sštevilo, manjše od 3?",
+        "rezultat": "2/6 ali 1/3",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kolika je verjetnost, da pri metu kocke pade sodo število?",
+        "rezultat": "3/6 ali 1/2",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj je mediana v statistični vrsti?",
+        "rezultat": "Srednja vrednost urejene vrste podatkov",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj je aritmetična sredina števil 2, 4, 6, 8?",
+        "rezultat": "5",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj površino stožca z osnovno ploskvijo π in plaščem 2π (ali r=1, s=2)",
+        "rezultat": "3π cm²",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kolika je verjetnost dogodka, ki je nemogoč?",
+        "rezultat": "0 (ali 0%)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kolika je verjetnost gotovega dogodka?",
+        "rezultat": "1 (ali 100%)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj obseg osnove stožca, če je polmer r = 5 cm (pi = 3.14)",
+        "rezultat": "31.4 cm",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko oglišč ima štiristrana piramida?",
+        "rezultat": "5 oglišč",
+        "vrednost vprašanja": 2
+    }
+]

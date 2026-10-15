@@ -1,0 +1,602 @@
+[
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto štejemo za tradicionalni padec Zahodnega Rimskega cesarstva in začetek srednjega veka?",
+        "rezultat": "476 n. št.",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero stoletje označujemo z rimsko zapisano številko VII?",
+        "rezultat": "7. stoletje",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo dobo, ki sledi staremu veku in traja do konca 15. stoletja?",
+        "rezultat": "Srednji vek",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero germansko pleme je v 5. stoletju oplenilo Rim in dalo ime za uničevanje kulturne dediščine?",
+        "rezultat": "Vandali",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero cesarstvo na vzhodu je preživelo padec Rima in trajalo še cel srednji vek?",
+        "rezultat": "Bizantinsko cesarstvo (Vzhodno Rimsko cesarstvo)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenovalo prestolnica Bizantinskega cesarstva?",
+        "rezultat": "Konstantinopel (Carigrad)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero pleme je pod vodstvom Frankov ustanovilo močno državo v zahodni Evropi?",
+        "rezultat": "Franki",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil najslavnejši vladar Frankov, ki je bil leta 800 kronan za cesarja?",
+        "rezultat": "Karel Veliki",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo veliko preseljevanje plemen v Evropi med 4. in 7. stoletjem?",
+        "rezultat": "Veliko selitve ljudstev",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Iz katerih območij so se Slovani v 6. stoletju začeli seliti proti Vzhodnim Alpam?",
+        "rezultat": "Iz prapostojanke Slovanov (za Karpati)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero ljudstvo je v 6. stoletju skupaj s Slovani napadalo in poseljevalo Balkanski polotok?",
+        "rezultat": "Avari (Obri)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo prvo znano slovansko plemensko zvezo v 7. stoletju, ki jo je vodil trgovec Samo?",
+        "rezultat": "Samova plemenska zveza",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je nastala Samova plemenska zveza?",
+        "rezultat": "Okoli leta 623",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil Samo?",
+        "rezultat": "Frankovski trgovec, ki je postal kralj/vodja slovanske zveze",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero bitko je Samova zveza dosegla proti Frankom leta 631?",
+        "rezultat": "Bitka pri Wogastisburgu",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenovala prva znana država/kneževina prednikov današnjih Slovencev?",
+        "rezultat": "Karantanija",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kje je bilo središče Karantanije?",
+        "rezultat": "Na Krnskem gradu (Koroška)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil prvi po imenu znani karantanski knez?",
+        "rezultat": "Knez Valuk",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenoval posebni obred ustoličevanja karantanskih knezov?",
+        "rezultat": "Ustoličevanje na Knežjem kamnu",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "V katerem jeziku je potekal obred ustoličenja na Knežjem kamnu?",
+        "rezultat": "V slovenskem (slovanskem) jeziku",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kje je stal Knežji kamen?",
+        "rezultat": "Na Krnskem gradu",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kje je stal Vojvodski stol?",
+        "rezultat": "Na Gosposvetskem polju",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Zakaj so Karantanci v 8. stoletju poklicali na pomoč Bavarce?",
+        "rezultat": "Zaradi nevarnosti napadov Avarov (Obrov)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero vero so Karantanci sprejeli pod bavarskim in frankovskim vplivom?",
+        "rezultat": "Krščanstvo",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo sta bila znana karantanska kneza, ki sta začela pokristjanjevanje?",
+        "rezultat": "Gorazd in Hotimir",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri škofijski center je vodil pokristjanjevanje Karantancev?",
+        "rezultat": "Salzburg (Solnograd)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo prve ohranjene zapise v slovenskem jeziku iz okoli leta 1000?",
+        "rezultat": "Brižinski spomeniki",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "V kateri pisavi so zapisani Brižinski spomeniki?",
+        "rezultat": "V karolinški minuskuli (latinici)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Koliko zapisov sestavlja Brižinske spomenike?",
+        "rezultat": "Trije zapisi (dve obrazci spovedi in ena pridiga)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kje se danes hranijo originalni Brižinski spomeniki?",
+        "rezultat": "V Bavarski državni knjižnici v Münchnu",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo družbeno ureditev srednjega veka, ki temelji na zemljiški posesti?",
+        "rezultat": "Fevdalizem",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil vrhovni lastnik vse zemlje v fevdalizmu?",
+        "rezultat": "Kralj ali vladar",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo plemiča, ki je dobil zemljiško posest (fevd) v zameno za zvestobo in vojaško službo?",
+        "rezultat": "Vazal",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo plemiča, ki podeli posest vazalu?",
+        "rezultat": "Senior (vitez ali viši plemič)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako so se delili prebivalci v fevdalni družbi na tri temeljne stanove?",
+        "rezultat": "Plemstvo, duhovščina in kmetje",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo kmeta, ki je bil priklenjen na zemljo in je moral opravljati dajatve ter tlako?",
+        "rezultat": "Priklenjeni kmet (tlačan)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je tlaka?",
+        "rezultat": "Brezplačno delo, ki ga je kmet morala opravljati na fevdalčevi posesti",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo del fevdalne posesti, ki jo je kmet obdeloval za lastno preživetje?",
+        "rezultat": "Zakupljena zemlja (kmetija / huba)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je desetina?",
+        "rezultat": "Dajatev v višini ene desetine pridelka, ki jo je kmet plačeval Cerkvi",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kje so živeli fevdalci, da so se zaščitili pred napadi?",
+        "rezultat": "Na gradovih",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bil stolp (bergfried) na srednjeveškem gradu?",
+        "rezultat": "Najmočnejši in obrambni stolp na gradu",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako so se imenovali oboroženi plemiški bojevniki na konjih?",
+        "rezultat": "Vitezi",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera pravila in vrline so morali spoštovati vitezi?",
+        "rezultat": "Viteški kodeks (pogum, zvestoba, zaščita šibkejših)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj so bili viteški turnirji?",
+        "rezultat": "Vojaške in športne tekme vitezov v srednjem veku",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero dvo- ali triletno kolobarjenje so kmetje uvedli v srednjem veku za boljši pridelek?",
+        "rezultat": "Tripoljni sistem (trilno kolobarjenje)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera nova naprava z železnim lemežem je izboljšala obdelavo zemlje v srednjem veku?",
+        "rezultat": "Težki železni plug na kolesih",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako sta delovala mlin na veter in vodni mlin?",
+        "rezultat": "Izkoriščala sta moč vetra ali vode za mletje žita",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Zakaj so se v razvitem srednjem veku začela ponovno razvijati mesta?",
+        "rezultat": "Zaradi razcveta obrti in trgovine",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo so bili svobodni prebivalci srednjeveških mest?",
+        "rezultat": "Mestni obrtniki in trgovci (meščani)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri znan rek je veljal za pobegle kmete v mesta? ('Mestni zrak...')",
+        "rezultat": "'Mestni zrak osvobaja' (če je živel v mestu eno leto in en dan)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo združenja obrtnikov iste stroke v srednjeveških mestih?",
+        "rezultat": "Cahi",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kakšna je bila vloga cahov?",
+        "rezultat": "Določanje kakovosti pridelkov, cen, zaščita obrtnikov in nadzor nad konkurenco",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo mestne pravice, ki jih je vladar podelil mestu?",
+        "rezultat": "Mestni privilegiji (mestne pravice)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri je bil najvišji predstavnik mestne samouprave v srednjeveških mestih?",
+        "rezultat": "Župan ali mestni svet",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera vera je imela popolno prevlado v zahodni Evropi v srednjem veku?",
+        "rezultat": "Krščanstvo (Katoliška cerkev)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil na čelu Katoliške cerkve?",
+        "rezultat": "Papež v Rimu",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je prišlo do velikega cerkvenega razkola (schizme) na zahodno in vzhodno cerkev?",
+        "rezultat": "Leta 1054",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se imenuje krščanska cerkev na vzhodu Evrope po razkolu 1054?",
+        "rezultat": "Pravoslavna cerkev",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil ustanovitelj najstarejšega samostanskega reda na zahodu (benediktincev)?",
+        "rezultat": "Sveti Benedikt",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je pomenilo geslo benediktincev 'Ora et labora'?",
+        "rezultat": "'Moli in delaj'",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero pomembno opravilo so v samostanih izvajali redovniki glede književnosti?",
+        "rezultat": "Prepisovali so rokopise in knjige",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo vojaške pohode evropskih kristjanov na Bližnji vzhod med 11. in 13. stoletjem?",
+        "rezultat": "Križarske vojne",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero sveto mesto so želeli križarji osvoboditi izpod muslimanske oblasti?",
+        "rezultat": "Jeruzalem",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri arhitekturni slog srednjega veka prepoznamo po masivnih zidovih in polkrožnih lokih?",
+        "rezultat": "Romanika (romanski slog)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri arhitekturni slog prepoznamo po visokih šilastih lokih, barvnih vitražih in visokih stolpih?",
+        "rezultat": "Gotika (gotski slog)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto štejemo za začetek novega veka z odkritjem Amerike?",
+        "rezultat": "1492",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri italijanski pomorščak je pod špansko zastavo leta 1492 dosegel Ameriko?",
+        "rezultat": "Krištof Kolumb",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero celino je Kolumb mislil, da je dosegel?",
+        "rezultat": "Indijo (zato je domačine poimenoval Indijanci)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri portugalski pomorščak je prvi obplul Afriko in dosegel Indijo leta 1498?",
+        "rezultat": "Vasco da Gama",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera odprava je pod vodstvom koga prva obplula svet med letoma 1519 in 1522?",
+        "rezultat": "Odprava Ferdinanda Magellana",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo izmenjavo rastlin, živali in bolezni med Staro in Novo celino?",
+        "rezultat": "Kolumbovska izmenjava",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Navedi vsaj dve rastlini, ki sta v Evropo prišli iz Amerike.",
+        "rezultat": "Krompir, koruza, paradižnik, paprika, tobak",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je v Evropi okoli leta 1450 izumil tiskarski stroj s premičnimi kovinskimi črkami?",
+        "rezultat": "Johannes Gutenberg",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Zakaj je bil izum tiskarskega stroja izjemno pomemben za razvoj človeštva?",
+        "rezultat": "Omogočil je hitro, cenejše in masovno tiskanje knjig ter širjenje znanja",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo duhovno gibanje na prehodu iz srednjega v novi vek, ki v središče postavlja človeka?",
+        "rezultat": "Humanizem",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo umetniško gibanje, ki je oživljalo vzore iz antične Grčije in Rima?",
+        "rezultat": "Renesansa",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je naslikal sliki 'Mona Lisa' in 'Zadnja večerja'?",
+        "rezultat": "Leonardo da Vinci",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri renesančni umetnik je poslikal strop Sikstinske kapele in izklesal kip Davida?",
+        "rezultat": "Michelangelo Buonarroti",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri poljski astronom je postavil heliocentrični sistem (da je Sonce v središču)?",
+        "rezultat": "Nikolaj Kopernik",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj pomeni heliocentrični sistem?",
+        "rezultat": "Teorija, da je Sonce v središču vesolja/sistem, Zemlja in planeti pa krožijo okoli njega",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero azijsko ljudstvo in cesarstvo je v 14. in 15. stoletju osvojilo Balkan ter ogrožalo slovenske dežele?",
+        "rezultat": "Osmani (Turki) / Osmansko cesarstvo",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto so Turški vpadi prvič doseženi na slovenskem ozemlju (Metlika)?",
+        "rezultat": "Leta 1408",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako so prebivalci na Slovenskem opozarjali na bližajočo se turško nevarnost?",
+        "rezultat": "S kresovi na hribih in s zvonjenjem v cerkvah",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo utrjene cerkve z obzidji in stolpi, kamor so se kmetje zatekali pred Turki?",
+        "rezultat": "Tabori (protiturški tabori)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Zakaj so na Slovenskem v 15. in 16. stoletju izbruhnili kmečki upori?",
+        "rezultat": "Zaradi večanja davkov, tlake, turških vpadov in izgube kmečkih pravic",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdaj je izbruhnil Veliki slovenski kmečki upor, ki je zajel skoraj vse slovenske dežele?",
+        "rezultat": "Leta 1515",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero geslo so imeli uporni kmetje v uporu leta 1515 za obrambo svojih pravic?",
+        "rezultat": "'Stara pravda'",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero pesem/geslo poznamo iz časa kmečkih uporov na Slovenskem ('Leukup, leukup...')?",
+        "rezultat": "'Leukup, leukup, uboga gmajna'",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdaj je izbruhnil hrvaško-slovenski kmečki upor pod vodstvom Matije Gubca?",
+        "rezultat": "Leta 1573",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil eden glavnih vodij hrvaško-slovenskega kmečkega upora leta 1573?",
+        "rezultat": "Matija Gubec (in Ilija Gregorić)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je leta 1517 v Nemčiji z objavo 95 tez začel gibanje za prenovo Cerkve (reformacijo)?",
+        "rezultat": "Martin Luther",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bila glavna zahteva Martina Luthra glede cerkvenega obredja in jezika?",
+        "rezultat": "Da obredje poteka v domačem (ljudskem) jeziku in ne le v latinščini",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo versko gibanje v 16. stoletju, ki se je odcepilo od Katoliške cerkve?",
+        "rezultat": "Protestantizem (reformacija)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je napisal in izdal prvi dve slovenski knjigi leta 1550?",
+        "rezultat": "Primož Trubar",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri sta bili prvi dve slovenski knjigi, izdani leta 1550?",
+        "rezultat": "Catechismus (Katekizem) in Abecedarium (Abecednik)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "S katerim znamenitim nagovorom je Primož Trubar nagovoril rojake v Katekizmu?",
+        "rezultat": "'Ena sledni človek' oz. 'Lubi Slovenci'",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je leta 1584 izdal prvi celotni prevod Biblije (Svetega pisma) v slovenski jezik?",
+        "rezultat": "Jurij Dalmatin",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je leta 1584 napisal prvo slovensko slovnico z naslovom 'Arcticae horulae' (Zimske urice)?",
+        "rezultat": "Adam Bohorič",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenovala pisava, ki so jo slovenski protestanti uporabljali do 19. stoletja?",
+        "rezultat": "Bohoričica",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo ukrepe Katoliške cerkve za zatrtje protestantizma na Slovenskem sredi 16. in 17. stoletja?",
+        "rezultat": "Protireformacija (in verske komisije)",
+        "vrednost vprašanja": 3
+    }
+]

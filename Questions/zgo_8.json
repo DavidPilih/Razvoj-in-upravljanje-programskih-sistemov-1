@@ -1,0 +1,602 @@
+[
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo miselni tok v 18. stoletju, ki je poveličeval razum, znanost in svobodo posameznika?",
+        "rezultat": "Razsvetljenstvo",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo sta bila znana francoska razsvetljenska filozofit, ki sta se zavzemala za človeške pravice in delitev oblasti?",
+        "rezultat": "Voltaire in Montesquieu",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo vladarsko obliko, kjer vladar (npr. Jožef II.) vlada sam, a skuša uvesti razsvetljene reforme?",
+        "rezultat": "Razsvetljeni absolutizem",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri habsburški vladar in vladarica sta v 18. stoletju uvedla šolsko obveznost ter reforme v habsburški monarhiji?",
+        "rezultat": "Marija Terezija in Jožef II.",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je Marija Terezija uvedla splošno osnovno šolsko obveznost?",
+        "rezultat": "Leta 1774",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bila glavna značilnost industrijske revolucije, ki se je začela sredi 18. stoletja?",
+        "rezultat": "Prehod z ročnega dela v manufakturah na strojno delo v tovarnah",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "V kateri državi se je prva začela industrijska revolucija?",
+        "rezultat": "V Angliji (Veliki Britaniji)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je izumil izboljšan parni stroj, ki je postal pogonska sila industrijske revolucije?",
+        "rezultat": "James Watt",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera energetska surovina je bila ključna za pogon parnih strojev in tovarn v 18. in 19. stoletju?",
+        "rezultat": "Premog (kamenogl",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bila posledica uporabe parnega stroja v prometu?",
+        "rezultat": "Izum parnika in parne lokomotive (železnice)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je izdelal prvo uspešno parno lokomotivo (imenovano 'Rocket')?",
+        "rezultat": "George Stephenson",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo družbeni sloj lastnikov tovarn, kapitala in bank v 19. stoletju?",
+        "rezultat": "Buržuazija (kapitalisti)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo nov družbeni sloj delavcev, ki so delali v tovarnah za mezdo?",
+        "rezultat": "Proletariat (delavski razred)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenovalo oboroženo delavsko gibanje v Angliji, ki je uničevalo stroje iz protesta?",
+        "rezultat": "Luddizem (ludisti)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Zakaj so v začetku industrijske revolucije pogosto zaposlovali ženske in otroke?",
+        "rezultat": "Ker so jim lahko plačevali veliko nižje plače kot moškim",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bil glavni cilj nastanka prvih delavskih združenj (sindikatov)?",
+        "rezultat": "Boj za višje plače, krajši delovnik in boljše delovne pogoje",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera nova prometna pot je skrajšala potovanje med Sredozemskim in Rdečim morjem (odprta 1869)?",
+        "rezultat": "Sueški kanal",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera izumiteljica/izumitelj je zaslužen za razvoj telegrafa in Morsejeve kode?",
+        "rezultat": "Samuel Morse",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri izum je omogočil hitrejše tkanje v tekstilni industriji na začetku revolucije?",
+        "rezultat": "Leteči čolniček",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo politiko širjenja oblasti države nad drugimi ozemlji z namenom pridobivanja surovin in trgov?",
+        "rezultat": "Imperializem (kolonializem)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Koliko britanskih kolonij v Severni Ameriki se je uprlo britanski oblasti in ustanovilo ZDA?",
+        "rezultat": "13 kolonij",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je bila sprejeta ameriška Deklaracija o neodvisnosti?",
+        "rezultat": "1776 (4. julij)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil glavni avtor Deklaracije o neodvisnosti ZDA?",
+        "rezultat": "Thomas Jefferson",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil prvi predsednik Združenih držav Amerike?",
+        "rezultat": "George Washington",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je izbruhnila francoska buržuazna revolucija?",
+        "rezultat": "1789",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "S katerim dogodkom se je uradno začela francoska revolucija 14. julija 1789?",
+        "rezultat": "Z zavzetjem pariške trdnjave-ječe Bastilja",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se imenuje pomemben dokument o človekovih pravicah, ki ga je sprejela francoska skupščina leta 1789?",
+        "rezultat": "Deklaracija o pravicah človeka in državljana",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kakšno je bilo glavno geslo francoske revolucije?",
+        "rezultat": "'Svoboda, enakost, bratstvo'",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo so bili jakobinci med francosko revolucijo?",
+        "rezultat": "Radikalna politična skupina pod vodstvom Maximiliena Robespierreja",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo krvavo obdobje vladavine jakobincev, ko so množično uporabljali giljotino?",
+        "rezultat": "Jakobinska diktatura (obdobje terorja)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je prevzel oblast v Franciji z državnim udarom leta 1799 in kasneje postal cesar?",
+        "rezultat": "Napoleon Bonaparte",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se imenuje Napoleonov obsežen zakonik, ki je vpeljal enakost pred zakonom?",
+        "rezultat": "Napoleonov zakonik (Code Civil)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto se je Napoleon oklical za francoskega cesarja?",
+        "rezultat": "1804",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "V kateri veliki bitki narodov je bil Napoleon leta 1813 poražen?",
+        "rezultat": "Bitka pri Leipzigu",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kje je Napoleon preživel zadnje leta v izgnanstvu po porazu pri Waterlooju (1815)?",
+        "rezultat": "Na otoku Sveta Helena",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bil glavni sklep Dunajskega kongresa (1814–1815)?",
+        "rezultat": "Obnova stare fevdalne ureditve in meja v Evropi (restavracija)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenovala zveza evropskih vladarjev, ki naj bi preprečevala nove revolucije?",
+        "rezultat": "Sveta aliansa",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je v Evropi izbruhnila serija meščanskih in narodnih revolucij (pomlad narodov)?",
+        "rezultat": "1848",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katere zahteve so postavili revolucionarji v avstrijskem cesarstvu in na Slovenskem marca 1848?",
+        "rezultat": "Marčne zahteve (svoboda tiska, ustava, Zedinjena Slovenija)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bil glavni politični program Slovencev leta 1848?",
+        "rezultat": "Zedinjena Slovenija",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je prvi javno objavil program Zedinjena Slovenija v kranjskih časopisih aprila 1848?",
+        "rezultat": "Matija Majar Ziljski",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je zahteval program Zedinjena Slovenija?",
+        "rezultat": "Združitev vseh Slovencev v eno kraljestvo znotraj monarhije, uradni slovenski jezik in parlament",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je bilo v habsburški monarhiji uradno ukinjeno tlačanstvo (fevdalizem)?",
+        "rezultat": "1848",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil avstrijski cesar, ki je vladal večji del 19. stoletja (od 1848 do 1916)?",
+        "rezultat": "Franc Jožef I.",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bil oktroirani (vsiljeni) stadion v Avstriji leta 1849?",
+        "rezultat": "Ustava, ki jo je cesar vsilil brez odobritve parlamenta",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo obdobje prizadevanj za uveljavitev slovenskega jezika, kulture in narodne zavesti v 19. stoletju?",
+        "rezultat": "Slovenski narodni preporod",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil osrednji slovenski pesnik romantike, avtor Zdravljice?",
+        "rezultat": "France Prešeren",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je France Prešeren napisal Zdravljico?",
+        "rezultat": "1844",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera kitica Zdravljice je danes slovenska državna himna?",
+        "rezultat": "Sedma kitica ('Žive naj vsi narodi...')",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo sta bila izdajatelja prvega slovenskega političnega časopisa Kmetijske in rokodelske novice (1843)?",
+        "rezultat": "Janez Bleiweis",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Zakaj so Kmetijske in rokodelske novice pomembne za Slovence?",
+        "rezultat": "Bile so osrednji časopis, ki je širil slovensko zavest in pismenost med ljudmi",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako so se imenovala kulturna in družabna središča Slovencev v drugi polovici 19. stoletja?",
+        "rezultat": "Čitalnice",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kje je bila ustanovljena prva slovenska čitalnica leta 1861?",
+        "rezultat": "V Trstu",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj so bili slovenski tabori v 60. in 70. letih 19. stoletja?",
+        "rezultat": "Množična ljudska zborovanja na prostem, kjer so zahtevali Zedinjeno Slovenijo",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kje je potekal prvi slovenski tabor leta 1868?",
+        "rezultat": "V Šempetru pri Gorici (pri Lembergu / pri Laškem je bil kasneje slaven tabor pri Laškem - 1869)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je bil ustanovljen slovenski narodni gledališki oder / dramsko društvo?",
+        "rezultat": "Leta 1867",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera politična stranka ali tabor se je izoblikoval na Slovenskem v 1890-ih (poleg klerikalcev in liberalcev)?",
+        "rezultat": "Socialdemokrati (delavska stranka)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil voditelj slovenske klerikalne (ljudske) stranke na prehodu v 20. stoletje?",
+        "rezultat": "Janez Evangelist Krek",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil voditelj slovenske liberalne (narodne napredne) stranke?",
+        "rezultat": "Ivan Hribar",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bila 'Ljubljanska zemljotresna' prelomnica za mesto Ljubljana?",
+        "rezultat": "Potres leta 1895, po katerem se je mesto močno posodobilo (župan Ivan Hribar)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako imenujemo proces združitve italijanskih držav v enotno državo v 19. stoletju?",
+        "rezultat": "Risorgimento (Združitev Italije)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil vodja vojaškega pohoda rdečih selic za združitev Italije?",
+        "rezultat": "Giuseppe Garibaldi",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bil glavni pruski kancler, ki je z 'železom in krvjo' združil Nemčijo leta 1871?",
+        "rezultat": "Otto von Bismarck",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je bila uradno razglašena Nemčija pod pruskim vodstvom?",
+        "rezultat": "1871",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kako se je imenovalo novo nemško cesarstvo, razglašeno v Versaillesu leta 1871?",
+        "rezultat": "Nemški rajh (Drugi rajh)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera država je leta 1867 postala Avstro-Ogrska (dvojna monarhija)?",
+        "rezultat": "Avstrijsko cesarstvo (z nagodbo z Madžarskimi)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katere dve enoti sta sestavljali Avstro-Ogrsko monarhijo?",
+        "rezultat": "Cislajtanija (avstrijski del) in Translajtanija (ogrski del)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera slovenska pokrajina je spadala pod ogrski del Avstro-Ogrske?",
+        "rezultat": "Prekmurje",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri del slovenskega ozemlja je bil pod neposredno avstrijsko oblastjo v Cislajtaniji?",
+        "rezultat": "Kranjska, Štajerska, Koroška, Primorska, Istra",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bila industrializacija na slovenskem ozemlju v 19. stoletju?",
+        "rezultat": "Gradnja železnic (Južna železnica Dunaj-Trst 1857), razvoj rudnikov in tovarn",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katere afriške države so si evropske velesile v 19. stoletju skoraj v celoti razdelile?",
+        "rezultat": "Afriko (kolonialni delitev Afrike)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera azijska država se je hitro industrializirala in postala velesila po letu 1868 (obdobje Meiji)?",
+        "rezultat": "Japonska",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kakšne so bile napetosti med velesilami pred 1. svetovno vojno zaradi kolonij?",
+        "rezultat": "Boj za trge, surovine in prevlado (imperialistični spori)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera dva vojaška bloka sta seoblikovala v Evropi pred letom 1914?",
+        "rezultat": "Trojna ententa in centralne sile",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katere države so sestavljale Trojno entento?",
+        "rezultat": "Velika Britanija, Francija in Rusija",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katere države so bile v jedru centralnih sil (trojnega paketa)?",
+        "rezultat": "Nemčija, Avstro-Ogrska in Italija (kasneje Italija izstopila)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero območje v Evropi so imenovali 'sodček smodnika' zaradi nenehnih napetosti in vojn?",
+        "rezultat": "Balkanski polotok",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kateri dogodek je sprožil prvo svetovno vojno 28. junija 1914?",
+        "rezultat": "Sarajevski atentat na avstrijskega prestolonaslednika Franca Ferdinanda",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je izvedel sarajevski atentat?",
+        "rezultat": "Gavrilo Princip (član organizacije Mlada Bosna)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera država je napovedala vojno Srbiji in s tem sprožila verižno reakcijo velesil?",
+        "rezultat": "Avstro-Ogrska",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto se je začela prva svetovna vojna?",
+        "rezultat": "1914",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto se je končala prva svetovna vojna?",
+        "rezultat": "1918",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kakšna vojna je zaznamovala večji del 1. svetovne vojne na zahodni in soški fronti?",
+        "rezultat": "Rovovska vojna",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kje je potekala krvava fronta med Italijo in Avstro-Ogrsko, ki je močno prizadela Slovence?",
+        "rezultat": "Na reki Soči (Soška fronta)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Koliko soških bitk je potekalo med letoma 1915 in 1917?",
+        "rezultat": "12 soških bitk",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera soška bitka (leta 1917) se je končala z umikom Italijanov (preboj pri Kobaridu)?",
+        "rezultat": "12. soška bitka (Čudež pri Kobaridu)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bila Majska deklaracija leta 1917?",
+        "rezultat": "Zahteva slovenskih poslancev v dunajskem parlamentu po združenju vseh Južnih Slovanov v habsburški monarhiji",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bil Krfski deklaracija (1917)?",
+        "rezultat": "Dogovor med jugoslovanskim odborom v izgnanstvu in srbsko vlado o ustanovitvi skupne države",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj se je zgodilo z Avstro-Ogrsko ob koncu vojne oktobra/novembra 1918?",
+        "rezultat": "Razpadla je na več samostojnih držav",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto in datum je bila ustanovljena Država Slovencev, Hrvatov in Srbov (SHS) z glavnim mestom v Zagrebu?",
+        "rezultat": "29. oktober 1918",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katera država je zasedla Primorsko in del Istre ob koncu prve svetovne vojne glede na Londonski pact?",
+        "rezultat": "Italija",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdaj so se Slovenci (Država SHS) združili s Kraljevino Srbijo v novo skupno državo (Kraljevino SHS)?",
+        "rezultat": "1. december 1918",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kakšno orožje je bilo prvič množično uporabljeno v prvi svetovni vojni?",
+        "rezultat": "Bojni strupi (plin), tanki, mitraljezi, letala in podmornice",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je podpisal premirje v Compiègneju, s katerim se je končala vojna na zahodni fronti?",
+        "rezultat": "Nemčija in zavezniki (11. novembra 1918)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "S katero mirovno pogodbo leta 1919 je bila uradno zapečatena usoda poražene Nemčije in meja v Evropi?",
+        "rezultat": "Versajska mirovna pogodba",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je leta 1859 postavil temeljno teorijo evolucije in naravnega izbora z delom O nastanku vrst?",
+        "rezultat": "Charles Darwin",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj je bila pariška komuna leta 1871?",
+        "rezultat": "Kratkotrajna revolucionarna oblast delavcev v Parizu",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kaj pomeni izraz industrializacija?",
+        "rezultat": "Prehod družbe iz agrarnozemeljske na industrijsko proizvodnjo",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Kdo je bila avstrijska cesarica in ogrska kraljica, mati Jožefa II.?",
+        "rezultat": "Marija Terezija",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "zgodovina",
+        "vprašanje": "Katero leto je bila ustanovljena Prva internacionala (mednarodno združenje delavcev)?",
+        "rezultat": "1864",
+        "vrednost vprašanja": 4
+    }
+]

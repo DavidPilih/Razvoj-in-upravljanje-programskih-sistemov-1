@@ -1,0 +1,602 @@
+[
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je (-8) + 15?",
+        "rezultat": "7",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: (-12) - (-5)",
+        "rezultat": "-7",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je (-6) * 7?",
+        "rezultat": "-42",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: (-48) / (-8)",
+        "rezultat": "6",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je absolutna vrednost števila -23?",
+        "rezultat": "23",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj vrednost izraza: -15 + 20 - 7",
+        "rezultat": "-2",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je (-2) * (-3) * (-4)?",
+        "rezultat": "-24",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 50 + (-15) - (+25)",
+        "rezultat": "10",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Katero število je večje: -5 ali -12?",
+        "rezultat": "-5",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: (-5)³",
+        "rezultat": "-125",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je nasprotna vrednost števila -45?",
+        "rezultat": "45",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: -100 / 25 + 4",
+        "rezultat": "0",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je vrednost izraza: |-14| + (-6)?",
+        "rezultat": "8",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: (-9) * 0 * 15",
+        "rezultat": "0",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši: -18 - (-18)",
+        "rezultat": "0",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 1/2 + 1/3",
+        "rezultat": "5/6",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 3/4 - 1/2",
+        "rezultat": "1/4",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 2/3 * 3/4",
+        "rezultat": "1/2 ali 2/4",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: (3/5) / (1/5)",
+        "rezultat": "3",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Pretvori ulomek 7/4 v celi del in ulomek",
+        "rezultat": "1 celina in 3/4",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Pretvori mešano število 2 1/3 v nepravi ulomek",
+        "rezultat": "7/3",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 2.5 + 3.75",
+        "rezultat": "6.25",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 10 - 4.35",
+        "rezultat": "5.65",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 1.2 * 0.5",
+        "rezultat": "0.6",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 7.5 / 1.5",
+        "rezultat": "5",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Pretvori ulomek 1/8 v decimalno število",
+        "rezultat": "0.125",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Pretvori decimalno število 0.35 v okrajšan ulomek",
+        "rezultat": "7/20",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 3/4 + 0.25",
+        "rezultat": "1",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Uredi po velikosti od najmanjšega do največjega: 0.5, 2/3, 0.4",
+        "rezultat": "0.4, 0.5, 2/3",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 1/2 - 0.3",
+        "rezultat": "0.2 ali 1/5",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je 3/5 od 45?",
+        "rezultat": "27",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: (1/2 + 1/4) * 4",
+        "rezultat": "3",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 2.4 + 1.2 * 3",
+        "rezultat": "6.0 ali 6",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Okrajšaj ulomek 45/60",
+        "rezultat": "3/4",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poišči skupni imenovalec ulomkov 1/6 in 1/8",
+        "rezultat": "24",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: x + 12 = 25",
+        "rezultat": "x = 13",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: x - 7 = 15",
+        "rezultat": "x = 22",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 4x = 36",
+        "rezultat": "x = 9",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: x / 3 = 7",
+        "rezultat": "x = 21",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 2x + 5 = 17",
+        "rezultat": "x = 6",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 3x - 4 = 11",
+        "rezultat": "x = 5",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 5x = 2x + 15",
+        "rezultat": "x = 5",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 2(x + 3) = 14",
+        "rezultat": "x = 4",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši neenačbo: x + 3 < 7",
+        "rezultat": "x < 4",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 10 - x = 4",
+        "rezultat": "x = 6",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: -3x = 18",
+        "rezultat": "x = -6",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 4x - 3 = 2x + 7",
+        "rezultat": "x = 5",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: x / 2 + 3 = 8",
+        "rezultat": "x = 10",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši neenačbo: 2x >= 10",
+        "rezultat": "x >= 5",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 5(x - 1) = 20",
+        "rezultat": "x = 5",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je 10% od 300?",
+        "rezultat": "30",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je 50% od 88?",
+        "rezultat": "44",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj 20% od 150.",
+        "rezultat": "30",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši 75% kot okrajšan ulomek.",
+        "rezultat": "3/4",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši 0.4 v odstotkih.",
+        "rezultat": "40%",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Če stane izdelek 80 € in se poceni za 10%, kolika je nova cena?",
+        "rezultat": "72 €",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši razmerje 4:8 v okrajšani obliki.",
+        "rezultat": "1:2",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Delite število 60 v razmerju 2:3.",
+        "rezultat": "24 in 36",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je 150% od 40?",
+        "rezultat": "60",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Cena majice je 20 €, davek pa 22%. Koliko znaša davek?",
+        "rezultat": "4.40 €",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj 5% od 200.",
+        "rezultat": "10",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Če je 25% števila enako 15, katero je to število?",
+        "rezultat": "60",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši 3/5 v odstotkih.",
+        "rezultat": "60%",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zmanjšaj število 80 za 25%.",
+        "rezultat": "60",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Povečaj število 50 za 20%.",
+        "rezultat": "60",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj 12.5% od 80.",
+        "rezultat": "10",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Razmerje fantov in deklet v razredu je 3:2. Koliko je deklet, če je v razredu 25 učencev?",
+        "rezultat": "10",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Avtomobil prevozi 150 km v 2 urah. Koliko km prevozi v 3 urah pri isti hitrosti?",
+        "rezultat": "225 km",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Če 4 delavci opravijo delo v 6 dneh, v kolikšnih dneh ga opravijo 3 delavci?",
+        "rezultat": "8 dni",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je 1% od 1000?",
+        "rezultat": "10",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Vsota vseh notranjih kotov v trikotniku znaša?",
+        "rezultat": "180°",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kako imenujemo trikotnik, ki ima vse tri stranice enake dolžine?",
+        "rezultat": "Enakostranični trikotnik",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj obseg kvadrata s stranico a = 12 cm.",
+        "rezultat": "48 cm",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj ploščino pravokotnika s stranicama a = 7 cm in b = 5 cm.",
+        "rezultat": "35 cm²",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko meri zunanji kot trikotnika, če sta nepriležna notranja kota 50° in 60°?",
+        "rezultat": "110°",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj ploščino trikotnika z osnovnico a = 8 cm in višino v_a = 5 cm.",
+        "rezultat": "20 cm²",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko meri komplementarni kot kotu 35°?",
+        "rezultat": "55°",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko meri suplementarni kot kotu 120°?",
+        "rezultat": "60°",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj obseg kroga s polmerom r = 7 cm (pi ≈ 22/7 ali 3.14).",
+        "rezultat": "43.96 cm ali 44 cm",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj ploščino kroga s polmerom r = 5 cm (pi = 3.14).",
+        "rezultat": "78.5 cm²",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko stopinj ima ravni kot?",
+        "rezultat": "180°",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko stopinj ima polni kot?",
+        "rezultat": "360°",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj velja za kote ob osi enakokrakega trikotnika?",
+        "rezultat": "Sta skladna (enaka)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj obseg pravokotnika s stranicama a = 9 cm in b = 4 cm.",
+        "rezultat": "26 cm",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj ploščino kvadrata, katerega obseg je 36 cm.",
+        "rezultat": "81 cm²",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko meri tretji kot v trikotniku, če sta prva dva 45° in 65°?",
+        "rezultat": "70°",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj premer kroga, če je njegov polmer r = 6.5 cm.",
+        "rezultat": "13 cm",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj je višina trikotnika?",
+        "rezultat": "Daljica iz oglišča, pravokotna na nasprotno stranico",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj ploščino romba z diagonalama d_1 = 6 cm in d_2 = 8 cm.",
+        "rezultat": "24 cm²",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko meri vsota notranjih kotov v štirikotniku?",
+        "rezultat": "360°",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj aritmetično sredino števil: 4, 8, 12, 16, 20",
+        "rezultat": "12",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj je mediana številčne vrste: 3, 7, 9, 12, 15?",
+        "rezultat": "9",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj aritmetično sredino števil: 10, 15, 20",
+        "rezultat": "15",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj je moda (modus) v vrsti: 2, 3, 3, 5, 7, 3, 8?",
+        "rezultat": "3",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj povprečno oceno, če ima učenec ocene: 3, 4, 5, 4, 3",
+        "rezultat": "3.8",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "V hlevu je 12 živali, od tega 5 krav, ostalo so ovce. Kolikšen delež so ovce (v okrajšanem ulomku)?",
+        "rezultat": "7/12",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Mati ima 36 let, hči pa 12. Čez koliko let bo mati stara dvakrat toliko kot hči?",
+        "rezultat": "Čez 12 let",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Vsota treh zaporednih celih števil je 45. Katera so ta števila?",
+        "rezultat": "14, 15, 16",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj vrednost izraza: 2 + 3 * 4 - 5",
+        "rezultat": "9",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je 2³ + 3²?",
+        "rezultat": "17",
+        "vrednost vprašanja": 2
+    }
+]

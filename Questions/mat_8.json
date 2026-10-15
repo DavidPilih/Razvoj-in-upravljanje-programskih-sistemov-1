@@ -1,0 +1,602 @@
+[
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: -3/4 + 1/2",
+        "rezultat": "-1/4 ali -0.25",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: (-2.5) * (-4)",
+        "rezultat": "10",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj vrednost: (-2)⁴",
+        "rezultat": "16",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 3/5 - 4/5",
+        "rezultat": "-1/5",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Pretvori v decimalno število: 3/8",
+        "rezultat": "0.375",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: (-1.2) / 0.3",
+        "rezultat": "-4",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 5 - (-3) * 2",
+        "rezultat": "11",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: ( -1/2 )³",
+        "rezultat": "-1/8",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj absolutno vrednost: |-5.4 - 2.1|",
+        "rezultat": "7.5",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 4/7 * (-14/5)",
+        "rezultat": "-8/5 ali -1.6",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: -15 - (-8) + 12",
+        "rezultat": "-5",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 0.25 + 3/4",
+        "rezultat": "1",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: (-3)² + (-2)³",
+        "rezultat": "1",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj vrednost izraza: 12 / (-4) - 3 * (-2)",
+        "rezultat": "3",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši: - ( - ( -5 ))",
+        "rezultat": "-5",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj vrednost: 2⁵",
+        "rezultat": "32",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi zapis: a³ * a⁴",
+        "rezultat": "a⁷",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 10³ / 10¹",
+        "rezultat": "100",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj kvadratni koren števila 225",
+        "rezultat": "15",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: √(144) + √(81)",
+        "rezultat": "21",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši v standardni (znanstveni) obliki število 45000",
+        "rezultat": "4.5 * 10⁴",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj vrednost: (3²)³",
+        "rezultat": "729",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: √0.09",
+        "rezultat": "0.3",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi: x⁶ / x²",
+        "rezultat": "x⁴",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: 5⁰",
+        "rezultat": "1",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši z negativno eksponentno potenco: 1 / 4²",
+        "rezultat": "4⁻²",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: √( 16 / 25 )",
+        "rezultat": "4/5",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj vrednost izraza: 2³ + 3²",
+        "rezultat": "17",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: √(-5)²",
+        "rezultat": "5",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši kot eno potenco: 3⁴ * 3² / 3³",
+        "rezultat": "3³ ali 27",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi izraz: 3x + 5x - 2x",
+        "rezultat": "6x",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Pomnoži: 2x(x - 3)",
+        "rezultat": "2x² - 6x",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj vrednost izraza 2x² - 3x za x = -2",
+        "rezultat": "14",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi: (a + 2)(a - 2)",
+        "rezultat": "a² - 4",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kvadriraj binom: (x + 4)²",
+        "rezultat": "x² + 8x + 16",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kvadriraj binom: (2a - b)²",
+        "rezultat": "4a² - 4ab + b²",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izpostavi skupni faktor: 6x² - 9x",
+        "rezultat": "3x(2x - 3)",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Razstavi po delih ali kot razliko kvadratov: x² - 25",
+        "rezultat": "(x - 5)(x + 5)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi: 5(a - 2) - 3(a + 1)",
+        "rezultat": "2a - 13",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: (x + 3)(x + 2)",
+        "rezultat": "x² + 5x + 6",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi: 4x² - (x² - 3x)",
+        "rezultat": "3x² + 3x",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši kvadrat dvočlenika (x - 6)²",
+        "rezultat": "x² - 12x + 36",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izpostavi skupni faktor v izrazu: 4a³b - 2a²b²",
+        "rezultat": "2a²b(2a - b)",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi: 3(2x - 1) + 2(3x + 4)",
+        "rezultat": "12x + 5",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko je produkt izrazov (x + 1) in (x - 1)?",
+        "rezultat": "x² - 1",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj vrednost izraza x² - 2xy + y² za x = 5, y = 2",
+        "rezultat": "9",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi: -(x - 5) + 2(x + 3)",
+        "rezultat": "x + 11",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj: (3x)²",
+        "rezultat": "9x²",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Pomnoži: -4x(2x² - 5)",
+        "rezultat": "-8x³ + 20x",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poenostavi: 7a - 3b - 4a + 5b",
+        "rezultat": "3a + 2b",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 3(x - 2) = 15",
+        "rezultat": "x = 7",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 5x - 4 = 2x + 8",
+        "rezultat": "x = 4",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo z ulomki: x/2 + x/3 = 5",
+        "rezultat": "x = 6",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši sistem enačb: x + y = 7 in x - y = 3",
+        "rezultat": "x = 5, y = 2",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 2(x - 3) - 4 = 3(x + 1) - 15",
+        "rezultat": "x = 4",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 4(x + 1) - 2x = 2(x + 2)",
+        "rezultat": "Vsako število je rešitev (identiteta)",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši sistem enačb: 2x + y = 8 in x = 3",
+        "rezultat": "x = 3, y = 2",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: x/4 - 1 = 2",
+        "rezultat": "x = 12",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 7 - 2x = 3x - 8",
+        "rezultat": "x = 3",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši sistem enačb: y = 2x in x + y = 9",
+        "rezultat": "x = 3, y = 6",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 3(2x - 4) = 6(x - 2)",
+        "rezultat": "Vsako število je rešitev",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: (x + 2)² = x² + 16",
+        "rezultat": "x = 3",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 5(x + 2) - 3x = 2(x + 5)",
+        "rezultat": "Vsako število je rešitev",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: x / 3 - x / 5 = 2",
+        "rezultat": "x = 15",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 2x - (3x - 1) = 4",
+        "rezultat": "x = -3",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši sistem enačb: 3x - y = 5 in x + y = 3",
+        "rezultat": "x = 2, y = 1",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: 0.5x + 1.5 = 2.5",
+        "rezultat": "x = 2",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Reši enačbo: x / 2 = x / 3 + 2",
+        "rezultat": "x = 12",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj je graf linearne funkcije?",
+        "rezultat": "Premica",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši enačbo premice, če je smerni koeficient k = 3 in začetna vrednost n = -2",
+        "rezultat": "y = 3x - 2",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poišči ničlo funkcije f(x) = 2x - 6",
+        "rezultat": "x = 3",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Ali točka (2, 5) leži na grafu funkcije y = 2x + 1?",
+        "rezultat": "Da (5 = 2*2 + 1)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kateri koeficient (k ali n) določa strmino premice?",
+        "rezultat": "Smerni koeficient k",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši linearno funkcijo, ki gre skozi izhodišče in ima strmino 4",
+        "rezultat": "y = 4x",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kolikšen je smerni koeficient premice y = -5x + 3?",
+        "rezultat": "k = -5",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kolika je začetna vrednost premice y = 4x - 7?",
+        "rezultat": "n = -7",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši enačbo premice vzporedne z y = 2x + 4, ki ima n = 1",
+        "rezultat": "y = 2x + 1",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poišči presečišče premice y = 3x - 6 z osjo x (ničla)",
+        "rezultat": "x = 2",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Poišči presečišče premice y = 2x + 4 z osjo y",
+        "rezultat": "(0, 4)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kakšna je strmina premice, ki je vzporedna osi x?",
+        "rezultat": "k = 0 (vodoravna premica)",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Zapiši enačbo vodoravne premice, ki poteka skozi točko (0, 5)",
+        "rezultat": "y = 5",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Ali sta premici y = 2x + 1 in y = -0.5x + 3 med seboj pravokotni?",
+        "rezultat": "Da (ker je 2 * (-0.5) = -1)",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Kaj pravi Pitagorov izrek za pravokotni trikotnik s katetama a, b in hipotenuzo c?",
+        "rezultat": "a² + b² = c²",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj dolžino hipotenuze pravokotnega trikotnika, če sta kateti a = 6 cm in b = 8 cm",
+        "rezultat": "10 cm",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj dolžino katete b, če je hipotenuza c = 13 cm in kateta a = 5 cm",
+        "rezultat": "12 cm",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj obseg kroga s polmerom r = 7 cm (pi ≈ 22/7)",
+        "rezultat": "44 cm",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj ploščino kroga s polmerom r = 10 cm (pi = 3.14)",
+        "rezultat": "314 cm²",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj prostornino valja s polmerom r = 3 cm in višino v = 10 cm (uporabi π)",
+        "rezultat": "90π cm³",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj površino valja s polmerom r = 2 cm in višino v = 5 cm (uporabi π)",
+        "rezultat": "28π cm²",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko meri višina enakostraničnega trikotnika s stranico a = 6 cm?",
+        "rezultat": "3√3 cm",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj ploščino enakostraničnega trikotnika s stranico a = 4 cm",
+        "rezultat": "4√3 cm²",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj dolžino diagonale kvadrata s stranico a = 5 cm",
+        "rezultat": "5√2 cm",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj dolžino telesne diagonale kocke s stranico a = 3 cm",
+        "rezultat": "3√3 cm",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj ploščino krožnega izseka za kot 90° v krogu s polmerom r = 6 cm (pi = 3.14)",
+        "rezultat": "28.26 cm²",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj obseg dolžine krožnega loka za kot 60° v krogu s polmerom r = 6 cm (pi = 3.14)",
+        "rezultat": "6.28 cm",
+        "vrednost vprašanja": 3
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Koliko meri diagonalni presek kocke s stranico a = 4 cm (diag. kocke x stranica)?",
+        "rezultat": "Narobe: diagonalni presek je pravokotnik s stranicama a in a√2 -> ploščina je 16√2 cm²",
+        "vrednost vprašanja": 4
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj osnovno ploskev (ploščino kroga) valja, če je r = 4 cm (pi = 3.14)",
+        "rezultat": "50.24 cm²",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Ali je trikotnik s stranicami 3, 4, 5 pravokoten?",
+        "rezultat": "Da (velja 3² + 4² = 5²)",
+        "vrednost vprašanja": 1
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj hipotenuzo enakokrakega pravokotnega trikotnika s kateto a = 5 cm",
+        "rezultat": "5√2 cm",
+        "vrednost vprašanja": 2
+    },
+    {
+        "predmet": "matematika",
+        "vprašanje": "Izračunaj površino osnove kocke, če je njena prostornina 64 cm³",
+        "rezultat": "16 cm²",
+        "vrednost vprašanja": 2
+    }
+]

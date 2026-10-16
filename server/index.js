@@ -6,6 +6,8 @@ const cors = require("cors");
 require("dotenv").config();
 const connectDB = require("./db");
 const authRouter = require("./routers/auth")
+const session = require("express-session");
+const { MongoStore } = require("connect-mongo");
 
 const app = express();
 app.use(cors());
@@ -17,6 +19,26 @@ app.get("/api", (req, res) => {
   });
 });
 
+
+app.use(session({
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: false,
+  store: MongoStore.create({ mongoUrl: process.env.MONGODB_URI }),
+  cookie: {
+    httpOnly: true,
+    sameSite: "lax",
+    secure: false,
+    maxAge: 1000*60* 60*24*7,//7DNI
+  },
+}));
+
+
+function logger(req,res,next){
+  console.log(req.method, req.url, "user:", req.session?.student_id);
+  next();
+}
+app.use(logger);
 app.use("/api/auth", authRouter);
 
 

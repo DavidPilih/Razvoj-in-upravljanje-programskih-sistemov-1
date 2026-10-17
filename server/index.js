@@ -6,10 +6,13 @@ const cors = require("cors");
 require("dotenv").config();
 const connectDB = require("./db");
 const authRouter = require("./routers/auth")
+const questionsRouter = require("./routers/questions")
+const dailyRouter = require("./routers/daily")
 const session = require("express-session");
 const { MongoStore } = require("connect-mongo");
-
 const app = express();
+cors({ origin: "http://localhost:5173", credentials: true })
+
 app.use(cors());
 app.use(express.json());
 
@@ -18,7 +21,6 @@ app.get("/api", (req, res) => {
     message: "backend is running",
   });
 });
-
 
 app.use(session({
   secret: process.env.SESSION_SECRET,
@@ -40,7 +42,8 @@ function logger(req,res,next){
 }
 app.use(logger);
 app.use("/api/auth", authRouter);
-
+app.use("/api/questions", questionsRouter);
+app.use("/api/daily", dailyRouter)
 
 const PORT = process.env.PORT || 5000;
 

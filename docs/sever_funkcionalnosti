@@ -1,0 +1,19 @@
+Backend: http://localhost:5000
+Fetch vedno s credentials: "include" (login je s cookie sejo)
+
+AUTH
+POST   /api/auth/register  username, password, firstName, lastName, nickname, grade, classLabel
+POST   /api/auth/login   username, password
+POST   /api/auth/logout
+GET    /api/auth/me  (prijava)
+DELETE /api/auth/me  (prijava) izbrise racun
+
+VPRASANJA
+GET    /api/questions?subject=math&grade=7&count=10 subject: math/history, grade: 7-9
+POST   /api/questions/:id/checkAnswer  { answer }  -> "pravilni odgovor" / " ni pravilni odgovor"
+
+DAILY
+GET    /api/daily  (prijava) danasnje vprasanje za razred ucenca
+
+SE NI
+oddaja daily odgovora, tocke, lestvica, kviz, kahoot, 1v1

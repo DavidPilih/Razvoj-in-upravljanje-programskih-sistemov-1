@@ -1,6 +1,7 @@
 const DailyChallengeModel = require("../models/DailyChallenge");
 const QuestionModel = require("../models/Question");
 const StudentModel = require("../models/Student");
+const { GRADES } = require("../models/constants");
 
 function today() {
     return new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Ljubljana" });
@@ -55,4 +56,29 @@ async function getDaily(req, res) {
     }
 }
 
-module.exports = { getDaily };
+async function getDailyQuiz(req, res) {
+    try {
+        const student = req.session?.student_id
+            ? await StudentModel.findById(req.session.student_id)
+            : null;
+        const grade = student ? student.grade : Number(req.query.grade);
+        if (!GRADES.includes(grade)) {
+            return res.status(400).json({ error: "Izberi 7., 8. ali 9. razred." });
+        }
+        const questions = await QuestionModel.aggregate([
+            { $match: { grade, active: true } },
+            { $sample: { size: 5 } },
+            { $project: { answer: 0, acceptedAnswers: 0 } },
+        ]);
+        if (questions.length < 5) {
+            return res.status(404).json({ error: "Za ta razred še ni dovolj vprašanj." });
+        }
+        // Guest attempts only return questions; no scores or game sessions are stored.
+        res.json({ questions });
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: "Vprašanj ni bilo mogoče naložiti." });
+    }
+}
+
+module.exports = { getDaily, getDailyQuiz };

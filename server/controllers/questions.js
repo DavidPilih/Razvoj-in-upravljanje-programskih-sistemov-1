@@ -53,4 +53,25 @@ async function checkAnswer(req,res){
         return res.status(400).json({error: err});
     }
 }
-module.exports = {getQuestions, checkAnswer}
+async function getKlasicno(req, res) {
+    try {
+        const grade = Number(req.query.grade);
+        const subject = req.query.subject;
+        const page = Number(req.query.page || 1);
+        if (!GRADES.includes(grade) || !SUBJECTS.includes(subject) || !Number.isSafeInteger(page) || page < 1 || page > 10000) {
+            return res.status(400).json({ error: "Izberi veljaven razred, predmet in sklop." });
+        }
+        const filter = { grade, subject, active: true };
+        const total = await QuestionModel.countDocuments(filter);
+        const questions = await QuestionModel.find(filter)
+            .sort({ _id: 1 }).skip((page - 1) * 10).limit(10)
+            .select("-answer -acceptedAnswers");
+        if (!questions.length) return res.status(404).json({ error: "Za ta sklop ni vprašanj." });
+        res.json({ questions, page, total, hasNext: page * 10 < total });
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: "Vprašanj ni bilo mogoče naložiti." });
+    }
+}
+
+module.exports = {getQuestions, checkAnswer, getKlasicno}

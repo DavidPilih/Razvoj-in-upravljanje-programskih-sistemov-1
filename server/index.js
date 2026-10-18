@@ -11,6 +11,10 @@ const dailyRouter = require("./routers/daily")
 const session = require("express-session");
 const { MongoStore } = require("connect-mongo");
 const app = express();
+const { createServer } = require('node:http');
+const { attachMultiplayer } = require('./multiplayer/handlers');
+const httpServer = createServer(app);
+attachMultiplayer(httpServer);
 cors({ origin: "http://localhost:5173", credentials: true })
 
 app.use(cors());
@@ -49,7 +53,7 @@ const PORT = process.env.PORT || 5000;
 
 connectDB()
   .then(() => {
-    app.listen(PORT, () => {
+    httpServer.listen(PORT, () => {
       console.log(`Server running on port ${PORT}`);
     });
   })

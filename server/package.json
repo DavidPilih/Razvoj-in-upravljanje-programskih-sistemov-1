@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test multiplayer/*.test.js",
     "start": "node index.js",
     "dev": "nodemon index.js",
     "seed": "node scripts/seedQuestions.js"
@@ -20,7 +20,8 @@
     "dotenv": "^18.0.7",
     "express": "^5.3.0",
     "express-session": "^1.19.0",
-    "mongoose": "^9.11.1"
+    "mongoose": "^9.11.1",
+    "ws": "^8.22.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"

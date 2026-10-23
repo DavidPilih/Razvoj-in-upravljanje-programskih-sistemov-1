@@ -8,6 +8,7 @@ const connectDB = require("./db");
 const authRouter = require("./routers/auth")
 const questionsRouter = require("./routers/questions")
 const dailyRouter = require("./routers/daily")
+const scoringRouter = require("./routers/scoring")
 const session = require("express-session");
 const { MongoStore } = require("connect-mongo");
 const app = express();
@@ -48,7 +49,7 @@ app.use(logger);
 app.use("/api/auth", authRouter);
 app.use("/api/questions", questionsRouter);
 app.use("/api/daily", dailyRouter)
-
+app.use("/api/scoringRouter",scoringRouter)
 const PORT = process.env.PORT || 5000;
 
 connectDB()

@@ -1,0 +1,10 @@
+const express = require("express")
+const router = express.Router();
+const {changeElo} = require("../controllers/scoring")
+
+
+router.get("/changeElo", changeElo )
+
+
+
+module.exports = router;

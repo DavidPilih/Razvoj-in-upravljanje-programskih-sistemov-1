@@ -87,5 +87,3 @@ async function getKlasicno(req, res) {
 }
 
 module.exports = {getQuestions, checkAnswer, getKlasicno}
-
-đšpoiuztr

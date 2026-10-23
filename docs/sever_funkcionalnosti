@@ -10,10 +10,10 @@ DELETE /api/auth/me  (prijava) izbrise racun
 
 VPRASANJA
 GET    /api/questions?subject=math&grade=7&count=10 subject: math/history, grade: 7-9
-POST   /api/questions/:id/checkAnswer  { answer }  -> "pravilni odgovor" / " ni pravilni odgovor"
+POST   /api/questions/:id/checkAnswer  (prijava) { answer }  vrne "pravilni odgovor" ali " ni pravilni odgovor", za pravilnega dobi 50 tock  //NOVO
 
 DAILY
 GET    /api/daily  (prijava) danasnje vprasanje za razred ucenca
 
-SE NI
-oddaja daily odgovora, tocke, lestvica, kviz, kahoot, 1v1
+SCORING
+POST   /api/scoring/changeElo  (prijava) { opponent_elo, result }  result je 1 ce zmaga, 0 ce izgubi, vrne elo_change in duelRating //NOVO

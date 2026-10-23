@@ -1,4 +1,5 @@
 const QuestionModel = require("../models/Question")
+const StudentModel = require("../models/Student")
 const { SUBJECTS, GRADES } = require("../models/constants");
 
 
@@ -44,11 +45,22 @@ async function checkAnswer(req,res){
 
     const correct_answer = question.answer;
     let accepted_answers = question.acceptedAnswers;
+
+    accepted_answers = accepted_answers.map(a=> normalize(a));
+
     if(!correct_answer || !accepted_answers) return res.status(400).json("ni ok");
     
     accepted_answers = accepted_answers.map((a) => normalize(a))
-    if(normalize(correct_answer) === normalize(answer) || accepted_answers.includes(normalize(answer)))res.status(200).json("pravilni odgovor");
-    else res.status(200).json(" ni pravilni odgovor");
+    if(normalize(correct_answer) === normalize(answer) || accepted_answers.includes(normalize(answer)))
+        {
+        const user_id = req.session.student_id;
+        const user = await StudentModel.findById(user_id);
+        if(!user) return res.status(400).json("Problem finding user");
+        user.total_score +=50;
+        await user.save();
+        res.status(200).json("pravilni odgovor");
+
+    }else res.status(200).json(" ni pravilni odgovor");
     }catch(err){
         return res.status(400).json({error: err});
     }
@@ -75,3 +87,5 @@ async function getKlasicno(req, res) {
 }
 
 module.exports = {getQuestions, checkAnswer, getKlasicno}
+
+đšpoiuztr

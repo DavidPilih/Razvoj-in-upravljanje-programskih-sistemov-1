@@ -49,7 +49,7 @@ app.use(logger);
 app.use("/api/auth", authRouter);
 app.use("/api/questions", questionsRouter);
 app.use("/api/daily", dailyRouter)
-app.use("/api/scoringRouter",scoringRouter)
+app.use("/api/scoring",scoringRouter)
 const PORT = process.env.PORT || 5000;
 
 connectDB()

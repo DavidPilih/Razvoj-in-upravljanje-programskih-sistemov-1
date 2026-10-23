@@ -3,7 +3,7 @@ const router = express.Router();
 const {changeElo} = require("../controllers/scoring")
 
 
-router.get("/changeElo", changeElo )
+router.post("/changeElo", changeElo )
 
 
 

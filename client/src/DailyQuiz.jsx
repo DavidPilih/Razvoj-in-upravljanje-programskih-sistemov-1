@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import DragonHoard from './DragonHoard'
+import { formatElo } from './elo'
 
 async function api(path, body, signal) {
   const response = await fetch(`/api/${path}`, {
@@ -85,7 +86,7 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
       if (typeof result?.correct !== 'boolean') {
         throw new Error('Odgovora ni bilo mogoče preveriti.')
       }
-      setAnswers(previous => [...previous, { correct: result.correct, answer: value.trim(), correctAnswer: result.correctAnswer }])
+      setAnswers(previous => [...previous, { correct: result.correct, answer: value.trim(), correctAnswer: result.correctAnswer, eloChange: result.eloChange, duelRating: result.duelRating }])
     } catch (err) { setError(err.message || 'Povezava s strežnikom ni uspela.') }
     finally { setBusy(false) }
   }
@@ -100,6 +101,7 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
       {loading ? <p role="status">Nalaganje vprašanj …</p> : finished ? <>
         <h2>Kviz je zaključen.</h2>
         <p className="intro">Pravilni odgovori: <strong>{answers.filter(item => item.correct).length} / {questions.length}</strong></p>
+        {answers.at(-1)?.duelRating !== undefined && <p className="intro">Tvoj ELO: <strong>{answers.at(-1).duelRating}</strong> ({formatElo(answers.reduce((sum, item) => sum + (item.eloChange || 0), 0))})</p>}
         <ol className="results">{questions.map((item, position) => <li key={item._id}>
           <p>{item.text}</p>
           <span>Tvoj odgovor: {answers[position].answer} — <strong>{answers[position].correct ? 'Pravilno' : 'Napačno'}</strong></span>
@@ -116,7 +118,7 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
           {!feedback && <button className="primary-button" disabled={busy || !answer.trim()}>{busy ? 'Preverjanje …' : 'Preveri odgovor'}</button>}
         </form>}
         {feedback && <div className="feedback">
-          <p role="status"><strong>{feedback.correct ? 'Pravilno!' : 'Odgovor ni pravilen.'}</strong></p>
+          <p role="status"><strong>{feedback.correct ? 'Pravilno!' : 'Odgovor ni pravilen.'}</strong>{feedback.eloChange !== undefined && <span className={`elo-change${feedback.eloChange < 0 ? ' is-loss' : ''}`}>{formatElo(feedback.eloChange)}</span>}</p>
           {!feedback.correct && feedback.correctAnswer && <p>Pravilni odgovor: <strong>{feedback.correctAnswer}</strong></p>}
           <button className="primary-button" onClick={() => { setIndex(index + 1); setAnswer(''); setError('') }}>{index === questions.length - 1 ? 'Poglej rezultat' : 'Naslednje vprašanje'}</button>
         </div>}

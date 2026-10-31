@@ -18,8 +18,13 @@ Vprasanja z daljsim odgovorom (> 20 znakov) imajo polje choices: 4 premesani odg
 DAILY
 GET    /api/daily  (prijava) danasnje vprasanje za razred ucenca
 
-SCORING
-POST   /api/scoring/changeElo  (prijava) { opponent_elo, result }  result je 1 ce zmaga, 0 ce izgubi, vrne elo_change in duelRating //NOVO
+ELO (Student.duelRating) //NOVO
+       vsi zacnejo s 1000, ELO nikoli ne pade pod 100, racuna ga samo streznik (server/utils/scoring.js)
+       /api/scoring/changeElo je odstranjen (odjemalec si je lahko sam nastavil ELO)
+       checkAnswer (prijavljen): pravilen +5 x vrednost vprasanja, napacen -5 x vrednost; vrne se eloChange in duelRating
+       1v1: ob koncu igre klasicni Elo (zmaga 1, neodloceno 0.5, poraz 0, K = 32), ce sta oba igralca prijavljena
+            in to nista isti racun; kdor zapusti igro, izgubi. WebSocket prebere prijavo iz session piskotka.
+            Konec igre v stanju sobe: rated (ali se je stelo) in elo { change, rating }
 
 PROFIL
 GET    /api/profile  (prijava) vrne { student, rank: { overall, grade } }, rank = mesto po totalScore //NOVO

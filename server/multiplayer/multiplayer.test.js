@@ -5,6 +5,7 @@ const { once } = require('node:events');
 const WebSocket = require('ws');
 const { createRooms } = require('./rooms');
 const { attachMultiplayer } = require('./handlers');
+const { MIN_RATING, eloChange, soloEloChange, clampRating } = require('../utils/scoring');
 
 const questions = Array.from({ length: 10 }, (_, i) => ({
     _id: `question-${i}`, text: `Vprašanje ${i}`, answer: '0.5', acceptedAnswers: ['1/2'],
@@ -139,4 +140,58 @@ test('real WebSocket clients can create, join, start, answer and resume', async 
     const reveal = await reconnected.wait(event => event.type === 'state' && event.room.status === 'reveal');
     assert.equal(reveal.room.correctAnswer, '0.5');
     assert.equal(reveal.room.players.find(p => p.id === reveal.room.playerId).score, 1);
+});
+
+test('elo formula weights the result by the rating difference', () => {
+    assert.equal(eloChange(1000, 1000, 1), 16);
+    assert.equal(eloChange(1000, 1000, 0.5), 0);
+    assert.equal(eloChange(1200, 1000, 1), 8);
+    assert.equal(eloChange(1000, 1200, 0), -8);
+    assert.equal(eloChange(1000, 1200, 1), 24);
+    assert.equal(soloEloChange(2, true), 10);
+    assert.equal(soloEloChange(1, false), -5);
+    assert.equal(clampRating(90), MIN_RATING);
+});
+
+async function playDuel(t, { hostId, guestId, guestAnswer = '1/2', guestLeaves = false }) {
+    const calls = [];
+    const finishDuel = async results => {
+        calls.push(results);
+        return Object.fromEntries(results.map(r => [r.studentId, { change: r.result === 1 ? 16 : r.result === 0 ? -16 : 0, rating: 1000 }]));
+    };
+    const rooms = createRooms({ loadQuestions: async () => questions, finishDuel, revealMs: 1 });
+    t.after(() => rooms.close());
+    const a = [];
+    const host = rooms.create({ ...roomData, studentId: hostId }, message => a.push(message));
+    const guest = rooms.join({ code: host.code, mode: 'duel', nickname: 'Bor', studentId: guestId }, () => {});
+    await rooms.start(host.code, host.token);
+    if (guestLeaves) rooms.leave(guest.code, guest.token);
+    for (let i = 0; i < 10; i++) {
+        rooms.answer(host.code, host.token, { questionId: `question-${i}`, answer: '1/2' });
+        if (!guestLeaves) rooms.answer(guest.code, guest.token, { questionId: `question-${i}`, answer: guestAnswer });
+        await delay(10);
+    }
+    await delay(10);
+    return { calls, state: a.at(-1).room };
+}
+
+test('duel between two logged-in students settles elo once at the end', async t => {
+    const win = await playDuel(t, { hostId: 'ana', guestId: 'bor', guestAnswer: 'wrong' });
+    assert.equal(win.state.status, 'finished');
+    assert.deepEqual(win.calls, [[{ studentId: 'ana', result: 1 }, { studentId: 'bor', result: 0 }]]);
+    assert.equal(win.state.rated, true);
+    assert.deepEqual(win.state.elo, { change: 16, rating: 1000 });
+    const draw = await playDuel(t, { hostId: 'ana', guestId: 'bor' });
+    assert.deepEqual(draw.calls[0].map(r => r.result), [0.5, 0.5]);
+    const left = await playDuel(t, { hostId: 'ana', guestId: 'bor', guestLeaves: true });
+    assert.deepEqual(left.calls[0].map(r => r.result), [1, 0]);
+});
+
+test('duel with a guest or the same account does not change elo', async t => {
+    for (const ids of [{ hostId: 'ana', guestId: null }, { hostId: 'ana', guestId: 'ana' }]) {
+        const { calls, state } = await playDuel(t, ids);
+        assert.equal(calls.length, 0);
+        assert.equal(state.rated, false);
+        assert.equal(state.elo, null);
+    }
 });

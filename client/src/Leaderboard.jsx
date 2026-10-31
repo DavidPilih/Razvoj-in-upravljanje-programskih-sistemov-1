@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { titleFor } from './titles'
 
-const boards = { total: 'Skupno', math: 'Matematika', history: 'Zgodovina' }
+const boards = { total: 'Skupno', math: 'Matematika', history: 'Zgodovina', duel: 'ELO' }
 
 async function api(path, signal) {
   let response
@@ -22,7 +22,7 @@ function Row({ entry, board }) {
     <span className="board-name">{entry.nickname}{entry.me ? ' (ti)' : ''}
       <small>{entry.grade}. razred{board === 'total' ? ` · ${titleFor(entry.value).current.name}` : ''}</small>
     </span>
-    <span className="board-value">{entry.value} t.</span>
+    <span className="board-value">{entry.value} {board === 'duel' ? 'ELO' : 't.'}</span>
   </li>
 }
 
@@ -54,6 +54,7 @@ export default function Leaderboard({ student, onBack }) {
       <option value="">Vsi razredi</option>
       {[7, 8, 9].map(value => <option key={value} value={value}>{value}. razred</option>)}
     </select></label>
+    {board === 'duel' && <p className="hint">Vsi začnejo s 1000 ELO. Pravilni odgovori ga dvignejo, napačni znižajo, v dvobojih 1v1 pa je zmaga proti močnejšemu nasprotniku vredna več.</p>}
     {error ? <>
       <p className="notice" role="alert">{error}</p>
       <button className="primary-button" onClick={() => { setError(''); setAttempt(attempt + 1) }}>Poskusi znova</button>

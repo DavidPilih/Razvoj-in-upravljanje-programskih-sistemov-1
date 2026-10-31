@@ -8,7 +8,6 @@ const connectDB = require("./db");
 const authRouter = require("./routers/auth")
 const questionsRouter = require("./routers/questions")
 const dailyRouter = require("./routers/daily")
-const scoringRouter = require("./routers/scoring")
 const leaderboardRouter = require("./routers/leaderboard")
 const profileRouter = require("./routers/profile")
 const session = require("express-session");
@@ -17,7 +16,6 @@ const app = express();
 const { createServer } = require('node:http');
 const { attachMultiplayer } = require('./multiplayer/handlers');
 const httpServer = createServer(app);
-attachMultiplayer(httpServer);
 cors({ origin: "http://localhost:5173", credentials: true })
 
 app.use(cors());
@@ -29,7 +27,7 @@ app.get("/api", (req, res) => {
   });
 });
 
-app.use(session({
+const sessionMiddleware = session({
   secret: process.env.SESSION_SECRET,
   resave: false,
   saveUninitialized: false,
@@ -40,7 +38,10 @@ app.use(session({
     secure: false,
     maxAge: 1000*60* 60*24*7,//7DNI
   },
-}));
+});
+app.use(sessionMiddleware);
+// The duel needs the logged-in student to update their ELO.
+attachMultiplayer(httpServer, { session: sessionMiddleware });
 
 
 function logger(req,res,next){
@@ -51,7 +52,6 @@ app.use(logger);
 app.use("/api/auth", authRouter);
 app.use("/api/questions", questionsRouter);
 app.use("/api/daily", dailyRouter)
-app.use("/api/scoring",scoringRouter)
 app.use("/api/leaderboard", leaderboardRouter)
 app.use("/api/profile", profileRouter)
 const PORT = process.env.PORT || 5000;

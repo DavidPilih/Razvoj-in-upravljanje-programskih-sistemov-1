@@ -103,6 +103,7 @@ export default function Profile({ onBack, onUpdate, onDeleted }) {
       <div><dt>Skupne točke</dt><dd>{student.totalScore}</dd></div>
       <div><dt>Mesto na lestvici</dt><dd>{rank.overall}.</dd></div>
       <div><dt>Mesto v {student.grade}. razredu</dt><dd>{rank.grade}.</dd></div>
+      <div><dt>ELO</dt><dd>{student.duelRating}</dd></div>
       <div><dt>Pravilni odgovori</dt><dd>{correctAnswers} / {totalAnswers}</dd>{totalAnswers > 0 && <span className="hint">{accuracy} % pravilnih</span>}</div>
     </dl>
 

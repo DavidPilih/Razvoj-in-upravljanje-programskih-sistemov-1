@@ -68,6 +68,8 @@ progress::-webkit-progress-value { background: var(--gold); transition: width .2
 progress::-moz-progress-bar { background: var(--gold); }
 .feedback { margin-top: 24px; }
 .feedback p { margin-bottom: 20px; }
+.elo-change { display: inline-block; margin-left: 10px; padding: 1px 8px; border-radius: 6px; font-size: 14px; font-weight: 700; color: #fff; background: var(--forest); }
+.elo-change.is-loss { background: var(--crimson); }
 .results { padding-left: 22px; margin: 24px 0; }
 .results li { padding: 12px 0; border-bottom: 2px dotted var(--wood); line-height: 1.6; overflow-wrap: anywhere; }
 .results p { margin: 0 0 8px; }

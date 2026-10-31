@@ -4,7 +4,7 @@ const { choicesFor } = require('../utils/choices');
 
 const normalize = value => String(value).trim().toLowerCase().replaceAll(',', '.');
 
-function createRooms({ loadQuestions, roundMs = 30000, revealMs = 4000, reconnectMs = 60000 }) {
+function createRooms({ loadQuestions, finishDuel, roundMs = 30000, revealMs = 4000, reconnectMs = 60000 }) {
     const rooms = new Map();
 
     function snapshot(room, player) {
@@ -25,7 +25,24 @@ function createRooms({ loadQuestions, roundMs = 30000, revealMs = 4000, reconnec
             submitted: Boolean(player.answers[room.index]),
             ...(reveal && question && { correctAnswer: question.answer }),
             ...(reveal && { yourAnswer: player.answers[room.index]?.answer || '' }),
+            ...(room.status === 'finished' && { rated: Boolean(room.rated), elo: player.elo || null }),
         };
+    }
+
+    // A duel between two different logged-in students changes both ratings once it ends.
+    function settleDuel(room) {
+        const [a, b] = room.players;
+        room.rated = room.mode === 'duel' && Boolean(finishDuel && a?.studentId && b?.studentId && a.studentId !== b.studentId);
+        if (!room.rated) return;
+        // Leaving a duel counts as a loss, so it cannot be used to dodge one.
+        const result = (me, other) => me.left ? 0 : other.left ? 1 : me.score > other.score ? 1 : me.score === other.score ? 0.5 : 0;
+        finishDuel([{ studentId: a.studentId, result: result(a, b) }, { studentId: b.studentId, result: result(b, a) }])
+            .then(changes => {
+                if (!changes || !rooms.has(room.code)) return;
+                for (const player of room.players) player.elo = changes[player.studentId] || null;
+                broadcast(room);
+            })
+            .catch(err => console.error('ELO update failed:', err));
     }
 
     function broadcast(room) {
@@ -50,6 +67,7 @@ function createRooms({ loadQuestions, roundMs = 30000, revealMs = 4000, reconnec
             if (room.index + 1 === room.questions.length) {
                 room.status = 'finished';
                 room.deadline = null;
+                settleDuel(room);
                 broadcast(room);
             } else {
                 room.index += 1;
@@ -77,7 +95,7 @@ function createRooms({ loadQuestions, roundMs = 30000, revealMs = 4000, reconnec
         return { room, player };
     }
 
-    function addPlayer(room, nickname, send) {
+    function addPlayer(room, nickname, send, studentId) {
         if (typeof nickname !== 'string' || !nickname.trim() || nickname.trim().length > 30) {
             throw new Error('Vnesi vzdevek z največ 30 znaki.');
         }
@@ -87,6 +105,7 @@ function createRooms({ loadQuestions, roundMs = 30000, revealMs = 4000, reconnec
         const player = {
             id: randomBytes(12).toString('hex'), token: randomBytes(32).toString('hex'),
             nickname: nickname.trim(), score: 0, answers: [], send, left: false,
+            studentId: studentId ? String(studentId) : null,
         };
         room.players.push(player);
         room.hostId ||= player.id;
@@ -108,7 +127,7 @@ function createRooms({ loadQuestions, roundMs = 30000, revealMs = 4000, reconnec
                 players: [], status: 'waiting', questions: [], index: 0, createdAt: Date.now(),
             };
             // Validate the nickname before retaining a room.
-            const membership = addPlayer(room, data.nickname, send);
+            const membership = addPlayer(room, data.nickname, send, data.studentId);
             rooms.set(code, room);
             return membership;
         },
@@ -118,7 +137,7 @@ function createRooms({ loadQuestions, roundMs = 30000, revealMs = 4000, reconnec
             if (room.mode !== data.mode) throw new Error('Izberi isti način igre kot gostitelj.');
             if (room.status !== 'waiting') throw new Error('Igra se je že začela.');
             if (room.players.length >= (room.mode === 'duel' ? 2 : 20)) throw new Error('Soba je polna.');
-            return addPlayer(room, data.nickname, send);
+            return addPlayer(room, data.nickname, send, data.studentId);
         },
         resume(code, token, send) {
             const { room, player } = locate(code, token);

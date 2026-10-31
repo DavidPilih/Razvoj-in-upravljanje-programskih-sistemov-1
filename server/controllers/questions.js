@@ -2,6 +2,7 @@ const QuestionModel = require("../models/Question")
 const StudentModel = require("../models/Student")
 const { SUBJECTS, GRADES } = require("../models/constants");
 const { publicQuestion } = require("../utils/choices");
+const { MIN_RATING, soloEloChange, clampRating } = require("../utils/scoring");
 
 
 //helper
@@ -45,12 +46,19 @@ async function checkAnswer(req,res){
     const accepted_answers = [question.answer, ...(question.acceptedAnswers || [])].map(a => normalize(a));
     const correct = accepted_answers.includes(normalize(answer));
 
-    if(req.session.student_id){
-        const inc = { "stats.totalAnswers": 1 };
-        if(correct) Object.assign(inc, { totalScore: 50, [`scoreBySubject.${question.subject}`]: 50, "stats.correctAnswers": 1 });
-        await StudentModel.findByIdAndUpdate(req.session.student_id, { $inc: inc });
-    }
-    res.status(200).json({ correct, correctAnswer: question.answer });
+    if(!req.session.student_id) return res.status(200).json({ correct, correctAnswer: question.answer });
+
+    const inc = { "stats.totalAnswers": 1 };
+    if(correct) Object.assign(inc, { totalScore: 50, [`scoreBySubject.${question.subject}`]: 50, "stats.correctAnswers": 1 });
+    const delta = soloEloChange(question.points, correct);
+    // One pipeline update, so the ELO floor is applied atomically with the other counters.
+    const set = Object.fromEntries(Object.entries(inc).map(([field, value]) => [field, { $add: [{ $ifNull: [`$${field}`, 0] }, value] }]));
+    set.duelRating = { $max: [MIN_RATING, { $add: [{ $ifNull: ["$duelRating", 1000] }, delta] }] };
+    const before = await StudentModel.findByIdAndUpdate(req.session.student_id, [{ $set: set }], { new: false, updatePipeline: true });
+    if(!before) return res.status(200).json({ correct, correctAnswer: question.answer });
+
+    const duelRating = clampRating(before.duelRating + delta);
+    res.status(200).json({ correct, correctAnswer: question.answer, eloChange: duelRating - before.duelRating, duelRating });
     }catch(err){
         console.error(err);
         return res.status(500).json({ error: "Napaka na strežniku" });

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Choices } from './DailyQuiz'
 import DuelScene from './DuelScene'
+import { formatElo } from './elo'
 import HorseRace from './HorseRace'
 
 const subjectNames = { math: 'Matematika', history: 'Zgodovina' }
@@ -153,7 +154,10 @@ export default function Multiplayer({ mode, student, onBack }) {
         <h2>Konec igre</h2>
         <p className="intro">{winners.length > 1 ? `Neodločeno: ${winners.map(player => player.nickname).join(', ')}` : `Zmagovalec: ${winners[0]?.nickname}`}</p>
         <p>Tvoj rezultat: <strong>{me?.score} / {room.total}</strong></p>
-        <p className="hint">Rezultati te igre se ne shranjujejo na račun.</p>
+        {mode !== 'duel' ? <p className="hint">Rezultati te igre se ne shranjujejo na račun.</p>
+          : !room.rated ? <p className="hint">ELO se šteje samo, ko sta oba igralca prijavljena.</p>
+          : room.elo ? <p>Tvoj ELO: <strong>{room.elo.rating}</strong> <span className={`elo-change${room.elo.change < 0 ? ' is-loss' : ''}`}>{formatElo(room.elo.change)}</span></p>
+          : <p role="status">Računanje ELO …</p>}
       </> : <>
         <p className="round-meta">Vprašanje {room.index + 1} od {room.total}<span>{room.status === 'reveal' ? 'Naslednji korak' : 'Preostali čas'}: {seconds} s</span></p>
         {room.status === 'question' && <progress value={seconds} max={30} aria-label="Preostali čas" />}

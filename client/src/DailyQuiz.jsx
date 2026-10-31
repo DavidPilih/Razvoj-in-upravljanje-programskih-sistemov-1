@@ -70,10 +70,10 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
     setError('')
     try {
       const result = await api(`questions/${question._id}/checkAnswer`, { answer: answer.trim() })
-      if (result !== 'pravilni odgovor' && result !== ' ni pravilni odgovor') {
+      if (typeof result?.correct !== 'boolean') {
         throw new Error('Odgovora ni bilo mogoče preveriti.')
       }
-      setAnswers(previous => [...previous, { correct: result === 'pravilni odgovor', answer: answer.trim() }])
+      setAnswers(previous => [...previous, { correct: result.correct, answer: answer.trim(), correctAnswer: result.correctAnswer }])
     } catch (err) { setError(err.message || 'Povezava s strežnikom ni uspela.') }
     finally { setBusy(false) }
   }
@@ -91,6 +91,7 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
         <ol className="results">{questions.map((item, position) => <li key={item._id}>
           <p>{item.text}</p>
           <span>Tvoj odgovor: {answers[position].answer} — <strong>{answers[position].correct ? 'Pravilno' : 'Napačno'}</strong></span>
+          {!answers[position].correct && answers[position].correctAnswer && <span>Pravilni odgovor: <strong>{answers[position].correctAnswer}</strong></span>}
         </li>)}</ol>
         {onNext && (hasNext ? <button className="primary-button" onClick={onNext}>Naslednji sklop (10 vprašanj)</button> : <p role="status">Rešil si vse sklope za izbrani razred in predmet.</p>)}
         <button className="text-button" onClick={onBack}>Nazaj na izbiro</button>
@@ -104,6 +105,7 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
         </form>
         {feedback && <div className="feedback">
           <p role="status"><strong>{feedback.correct ? 'Pravilno!' : 'Odgovor ni pravilen.'}</strong></p>
+          {!feedback.correct && feedback.correctAnswer && <p>Pravilni odgovor: <strong>{feedback.correctAnswer}</strong></p>}
           <button className="primary-button" onClick={() => { setIndex(index + 1); setAnswer(''); setError('') }}>{index === questions.length - 1 ? 'Poglej rezultat' : 'Naslednje vprašanje'}</button>
         </div>}
       </> : null}

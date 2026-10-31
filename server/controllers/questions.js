@@ -35,34 +35,22 @@ async function getQuestions(req,res){
 }
 
 async function checkAnswer(req,res){
-
     try{
-    const id = req.params.id;
-    const question = await QuestionModel.findById(id);
+    const question = await QuestionModel.findById(req.params.id);
     const answer = req.body.answer;
 
-    if(!question || !answer) return res.status(400).json("ni ok");
+    if(!question || typeof answer !== "string" || !answer.trim()) return res.status(400).json({ error: "ni ok" });
 
-    const correct_answer = question.answer;
-    let accepted_answers = question.acceptedAnswers;
+    const accepted_answers = [question.answer, ...(question.acceptedAnswers || [])].map(a => normalize(a));
+    const correct = accepted_answers.includes(normalize(answer));
 
-    accepted_answers = accepted_answers.map(a=> normalize(a));
-
-    if(!correct_answer || !accepted_answers) return res.status(400).json("ni ok");
-    
-    accepted_answers = accepted_answers.map((a) => normalize(a))
-    if(normalize(correct_answer) === normalize(answer) || accepted_answers.includes(normalize(answer)))
-        {
-        const user_id = req.session.student_id;
-        const user = await StudentModel.findById(user_id);
-        if(!user) return res.status(400).json("Problem finding user");
-        user.total_score +=50;
-        await user.save();
-        res.status(200).json("pravilni odgovor");
-
-    }else res.status(200).json(" ni pravilni odgovor");
+    if(correct && req.session.student_id){
+        await StudentModel.findByIdAndUpdate(req.session.student_id, { $inc: { totalScore: 50 } });
+    }
+    res.status(200).json({ correct, correctAnswer: question.answer });
     }catch(err){
-        return res.status(400).json({error: err});
+        console.error(err);
+        return res.status(500).json({ error: "Napaka na strežniku" });
     }
 }
 async function getKlasicno(req, res) {

@@ -10,7 +10,7 @@ DELETE /api/auth/me  (prijava) izbrise racun
 
 VPRASANJA
 GET    /api/questions?subject=math&grade=7&count=10 subject: math/history, grade: 7-9
-POST   /api/questions/:id/checkAnswer  (prijava) { answer }  vrne "pravilni odgovor" ali " ni pravilni odgovor", za pravilnega dobi 50 tock  //NOVO
+POST   /api/questions/:id/checkAnswer  (prijava) { answer }  vrne { correct, correctAnswer }, za pravilnega dobi 50 tock (ce je prijavljen)  //NOVO
 
 DAILY
 GET    /api/daily  (prijava) danasnje vprasanje za razred ucenca

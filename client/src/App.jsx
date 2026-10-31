@@ -1,5 +1,6 @@
 ﻿import { useEffect, useState } from 'react'
 import './App.css'
+import { Chest, Crest, Horse, Landscape, Scroll, Swords } from './art'
 import DailyQuiz from './DailyQuiz'
 import Klasicno from './Klasicno'
 import Multiplayer from './Multiplayer'
@@ -105,8 +106,9 @@ function App() {
 
   return (
     <main className="auth-page">
+      <Landscape />
       <header className="site-header">
-        <button className="brand home-button" disabled={busy} onClick={() => { setMode('home'); setDaily(false); setKlasicno(false); setMultiplayer(null); setError(''); setMessage('') }}>KQviz</button>
+        <button className="brand home-button" disabled={busy} onClick={() => { setMode('home'); setDaily(false); setKlasicno(false); setMultiplayer(null); setError(''); setMessage('') }}><Crest />KQviz</button>
         <nav className="account-nav" aria-label="Uporabniški račun">
           {checking ? <span role="status">Preverjanje prijave …</span> : student ? <>
             <span>{student.nickname}</span><button className="text-button" onClick={logout} disabled={busy}>Odjava</button>
@@ -120,18 +122,19 @@ function App() {
         {error && <p className="notice" role="alert">{error}</p>}
         {message && <p className="notice" role="status">{message}</p>}
         {multiplayer ? <Multiplayer key={multiplayer} mode={multiplayer} student={student} onBack={() => setMultiplayer(null)} /> : klasicno ? <Klasicno student={student} onBack={() => setKlasicno(false)} /> : daily ? <DailyQuiz student={student} onBack={() => setDaily(false)} /> : <>
-          <h1>Izberi kviz</h1>
+          <h1>Izberi svojo pustolovščino</h1>
+          <p className="home-tagline">Znanje je tvoj najmočnejši meč!</p>
           <div className="quiz-grid">
-            <button className="quiz-choice" disabled={checking || busy} onClick={() => {
+            <button className="quiz-choice choice-daily" disabled={checking || busy} onClick={() => {
               setError(''); setMessage(''); setDaily(true)
-            }}><span className="choice-title">Daily</span><span>5 naključnih vprašanj iz različnih predmetov.</span><span className="choice-action">Začni kviz →</span></button>
-            <button className="quiz-choice" disabled={checking || busy} onClick={() => { setError(''); setMessage(''); setKlasicno(true) }}>
-              <span className="choice-title">Klasično</span><span>Izberi razred in predmet. Rešuj sklope po 10 vprašanj.</span><span className="choice-action">Izberi kviz →</span>
+            }}><span className="choice-art"><Chest /></span><span className="choice-title">Daily</span><span className="choice-tag">Zmajev zaklad</span><span>5 naključnih vprašanj iz različnih predmetov.</span><span className="choice-action">Začni kviz →</span></button>
+            <button className="quiz-choice choice-classic" disabled={checking || busy} onClick={() => { setError(''); setMessage(''); setKlasicno(true) }}>
+              <span className="choice-art"><Scroll /></span><span className="choice-title">Klasično</span><span className="choice-tag">Viteška šola</span><span>Izberi razred in predmet. Rešuj sklope po 10 vprašanj.</span><span className="choice-action">Izberi kviz →</span>
             </button>
             {[
-              ['Skupinsko', 'Tekmuj s prijatelji v skupnem kvizu.', 'group'],
-              ['1v1', 'Pomerita se v dvoboju znanja.', 'duel'],
-            ].map(([title, description, gameMode]) => <button className="quiz-choice" key={title} disabled={checking || busy} onClick={() => { setError(''); setMessage(''); setMultiplayer(gameMode) }}><span className="choice-title">{title}</span><span>{description}</span><span className="choice-action">Ustvari sobo ali se pridruži →</span></button>)}
+              ['Skupinsko', 'Konjska dirka', 'Tekmuj s prijatelji v skupnem kvizu.', 'group', <Horse />],
+              ['1v1', 'Viteški dvoboj', 'Pomerita se v dvoboju znanja.', 'duel', <Swords />],
+            ].map(([title, tag, description, gameMode, art]) => <button className={`quiz-choice choice-${gameMode}`} key={title} disabled={checking || busy} onClick={() => { setError(''); setMessage(''); setMultiplayer(gameMode) }}><span className="choice-art">{art}</span><span className="choice-title">{title}</span><span className="choice-tag">{tag}</span><span>{description}</span><span className="choice-action">Ustvari sobo ali se pridruži →</span></button>)}
           </div>
         </>}
       </div> : <div className="auth-container">

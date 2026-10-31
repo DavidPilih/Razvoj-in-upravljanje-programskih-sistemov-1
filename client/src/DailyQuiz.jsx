@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import DragonHoard from './DragonHoard'
 
 async function api(path, body, signal) {
   const response = await fetch(`/api/${path}`, {
@@ -31,10 +32,10 @@ export default function DailyQuiz({ student, onBack }) {
       </form>
     </section>
   )
-  return <Quiz key={`${student?._id || 'guest'}-${student?.grade || guestGrade}`} grade={student?.grade || guestGrade} guest={!student} onBack={onBack} />
+  return <Quiz key={`${student?._id || 'guest'}-${student?.grade || guestGrade}`} grade={student?.grade || guestGrade} guest={!student} onBack={onBack} treasure />
 }
 
-export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subtitle }) {
+export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subtitle, treasure }) {
   const [questions, setQuestions] = useState([])
   const [index, setIndex] = useState(0)
   const [answers, setAnswers] = useState([])
@@ -44,6 +45,7 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
   const [error, setError] = useState('')
   const [attempt, setAttempt] = useState(0)
   const [hasNext, setHasNext] = useState(false)
+  const sceneRef = useRef(null)
   const feedback = answers[index]
   const question = questions[index]
   const finished = questions.length > 0 && index === questions.length
@@ -56,6 +58,10 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
       .finally(() => { if (!controller.signal.aborted) setLoading(false) })
     return () => controller.abort()
   }, [attempt, grade, path])
+
+  useEffect(() => {
+    if (answers.length) sceneRef.current?.scrollIntoView({ block: 'nearest' })
+  }, [answers.length])
 
   async function submit(event) {
     event.preventDefault()
@@ -78,6 +84,7 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
       <h1>{title}</h1>
       {subtitle && <p className="intro">{subtitle}</p>}
       {guest && <p className="intro">Igraš kot gost. Točke se ne shranjujejo.</p>}
+      {treasure && questions.length > 0 && <div ref={sceneRef}><DragonHoard answers={answers} total={questions.length} feedback={feedback} finished={finished} /></div>}
       {loading ? <p role="status">Nalaganje vprašanj …</p> : finished ? <>
         <h2>Kviz je zaključen.</h2>
         <p className="intro">Pravilni odgovori: <strong>{answers.filter(item => item.correct).length} / {questions.length}</strong></p>

@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
+import DuelScene from './DuelScene'
+import HorseRace from './HorseRace'
 
 const subjectNames = { math: 'Matematika', history: 'Zgodovina' }
 
@@ -10,6 +12,7 @@ export default function Multiplayer({ mode, student, onBack }) {
   const [answer, setAnswer] = useState({ questionId: '', value: '' })
   const [now, setNow] = useState(() => Date.now())
   const socketRef = useRef(null)
+  const sceneRef = useRef(null)
   const storageKey = `kviz-room-${mode}`
   const title = mode === 'duel' ? '1v1' : 'Skupinsko'
 
@@ -75,6 +78,11 @@ export default function Multiplayer({ mode, student, onBack }) {
     return () => clearInterval(timer)
   }, [])
 
+  // The answer form can scroll the scene away, and the reveal animation must not be missed.
+  useEffect(() => {
+    if (room?.status === 'reveal') sceneRef.current?.scrollIntoView({ block: 'nearest' })
+  }, [room?.status])
+
   function send(data) {
     if (socketRef.current?.readyState !== WebSocket.OPEN) {
       setError('Počakaj na povezavo s strežnikom.')
@@ -127,8 +135,11 @@ export default function Multiplayer({ mode, student, onBack }) {
         </form>
       </div>
     </> : <>
-      <p className="room-code">Koda sobe: <strong>{room.code}</strong></p>
-      <p className="intro">{room.grade}. razred · {subjectNames[room.subject]} · 10 vprašanj · 1 točka za pravilen odgovor</p>
+      {(room.status === 'waiting' || room.status === 'loading') && <>
+        <p className="room-code">Koda sobe: <strong>{room.code}</strong></p>
+        <p className="intro">{room.grade}. razred · {subjectNames[room.subject]} · 10 vprašanj · 1 točka za pravilen odgovor</p>
+      </>}
+      <div ref={sceneRef}>{mode === 'duel' ? <DuelScene room={room} /> : <HorseRace room={room} />}</div>
       {room.status === 'waiting' || room.status === 'loading' ? <>
         <h2>Čakalnica</h2>
         <ul className="player-list">{room.players.map(player => <li key={player.id}>
@@ -144,6 +155,7 @@ export default function Multiplayer({ mode, student, onBack }) {
         <p className="hint">Rezultati te igre se ne shranjujejo na račun.</p>
       </> : <>
         <p className="round-meta">Vprašanje {room.index + 1} od {room.total}<span>{room.status === 'reveal' ? 'Naslednji korak' : 'Preostali čas'}: {seconds} s</span></p>
+        {room.status === 'question' && <progress value={seconds} max={30} aria-label="Preostali čas" />}
         <h2 className="question-text">{room.question.text}</h2>
         {room.status === 'question' ? <>
           <form key={room.question.id} onSubmit={event => {

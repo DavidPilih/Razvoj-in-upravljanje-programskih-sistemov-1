@@ -27,13 +27,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Katero cesarstvo na vzhodu je preživelo padec Rima in trajalo še cel srednji vek?",
         "rezultat": "Bizantinsko cesarstvo (Vzhodno Rimsko cesarstvo)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Frankovsko cesarstvo (Karolinško cesarstvo)",
+            "Perzijsko cesarstvo (Sasanidsko cesarstvo)",
+            "Sveto rimsko cesarstvo (Nemško cesarstvo)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako se je imenovalo prestolnica Bizantinskega cesarstva?",
         "rezultat": "Konstantinopel (Carigrad)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Aleksandrija (Egipt)",
+            "Ravena (Italija)",
+            "Antiohija (Sirija)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -51,13 +61,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo veliko preseljevanje plemen v Evropi med 4. in 7. stoletjem?",
         "rezultat": "Veliko selitve ljudstev",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Velika kolonizacija",
+            "Križarske vojne",
+            "Pokristjanjevanje Evrope"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Iz katerih območij so se Slovani v 6. stoletju začeli seliti proti Vzhodnim Alpam?",
         "rezultat": "Iz prapostojanke Slovanov (za Karpati)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Iz Skandinavije (ob Baltiku)",
+            "Iz Male Azije (Anatolije)",
+            "Iz Severne Afrike (ob Sredozemlju)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -69,7 +89,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo prvo znano slovansko plemensko zvezo v 7. stoletju, ki jo je vodil trgovec Samo?",
         "rezultat": "Samova plemenska zveza",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Karantanska kneževina",
+            "Velika Moravska",
+            "Spodnja Panonija"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -81,13 +106,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kdo je bil Samo?",
         "rezultat": "Frankovski trgovec, ki je postal kralj/vodja slovanske zveze",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Avarski kagan, ki je vladal Slovanom",
+            "Bizantinski cesar, ki je pokristjanil Slovane",
+            "Karantanski knez, ki so ga ustoličili na Knežjem kamnu"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Katero bitko je Samova zveza dosegla proti Frankom leta 631?",
         "rezultat": "Bitka pri Wogastisburgu",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Bitka na Lechfeldu",
+            "Bitka pri Poitiersu",
+            "Bitka pri Hastingsu"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -99,7 +134,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Kje je bilo središče Karantanije?",
         "rezultat": "Na Krnskem gradu (Koroška)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Na Ptujskem gradu (Štajerska)",
+            "Na Blejskem gradu (Kranjska)",
+            "V Ogleju (Furlanija)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -111,13 +151,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kako se je imenoval posebni obred ustoličevanja karantanskih knezov?",
         "rezultat": "Ustoličevanje na Knežjem kamnu",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Kronanje v Aachnu",
+            "Maziljenje v Ogleju",
+            "Kronanje v Rimu"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "V katerem jeziku je potekal obred ustoličenja na Knežjem kamnu?",
         "rezultat": "V slovenskem (slovanskem) jeziku",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "V latinskem jeziku",
+            "V nemškem (bavarskem) jeziku",
+            "V grškem jeziku"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -129,13 +179,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kje je stal Vojvodski stol?",
         "rezultat": "Na Gosposvetskem polju",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Na Krnskem gradu",
+            "Na Ljubljanskem gradu",
+            "Na Blejskem otoku"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Zakaj so Karantanci v 8. stoletju poklicali na pomoč Bavarce?",
         "rezultat": "Zaradi nevarnosti napadov Avarov (Obrov)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Zaradi nevarnosti napadov Frankov",
+            "Zaradi nevarnosti napadov Madžarov (Ogrov)",
+            "Zaradi nevarnosti napadov Turkov (Osmanov)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -165,19 +225,34 @@
         "predmet": "zgodovina",
         "vprašanje": "V kateri pisavi so zapisani Brižinski spomeniki?",
         "rezultat": "V karolinški minuskuli (latinici)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "V glagolici (staroslovanski pisavi)",
+            "V cirilici (staroslovanski pisavi)",
+            "V gotici (gotski pisavi)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Koliko zapisov sestavlja Brižinske spomenike?",
         "rezultat": "Trije zapisi (dve obrazci spovedi in ena pridiga)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Dva zapisa (spoved in molitev)",
+            "Pet zapisov (molitve in pesmi)",
+            "En zapis (celotna pridiga)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kje se danes hranijo originalni Brižinski spomeniki?",
         "rezultat": "V Bavarski državni knjižnici v Münchnu",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "V Narodni in univerzitetni knjižnici v Ljubljani",
+            "V Vatikanski apostolski knjižnici v Rimu",
+            "V Avstrijski narodni knjižnici na Dunaju"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -201,37 +276,67 @@
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo plemiča, ki podeli posest vazalu?",
         "rezultat": "Senior (vitez ali viši plemič)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Vazal (nižji plemič)",
+            "Tlačan (priklenjeni kmet)",
+            "Opat (predstojnik samostana)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako so se delili prebivalci v fevdalni družbi na tri temeljne stanove?",
         "rezultat": "Plemstvo, duhovščina in kmetje",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Meščani, obrtniki in trgovci",
+            "Vitezi, vazali in tlačani",
+            "Kralji, škofje in meščani"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo kmeta, ki je bil priklenjen na zemljo in je moral opravljati dajatve ter tlako?",
         "rezultat": "Priklenjeni kmet (tlačan)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Svobodni kmet (kosez)",
+            "Meščan (obrtnik)",
+            "Vazal (nižji plemič)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kaj je tlaka?",
         "rezultat": "Brezplačno delo, ki ga je kmet morala opravljati na fevdalčevi posesti",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Dajatev v denarju, ki jo je kmet plačeval vladarju",
+            "Plačano delo kmeta v mestni delavnici",
+            "Vojaška služba, ki jo je vazal opravljal za seniorja"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo del fevdalne posesti, ki jo je kmet obdeloval za lastno preživetje?",
         "rezultat": "Zakupljena zemlja (kmetija / huba)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Gosposka zemlja (dominikalna posest)",
+            "Mestna zemlja (meščanska posest)",
+            "Cerkvena zemlja (župnijska posest)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kaj je desetina?",
         "rezultat": "Dajatev v višini ene desetine pridelka, ki jo je kmet plačeval Cerkvi",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Delo, ki ga je kmet vsak deseti dan opravljal za plemiča",
+            "Davek, ki so ga meščani plačevali za mestne pravice",
+            "Dajatev v višini polovice pridelka, ki jo je kmet dajal seniorju"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -243,7 +348,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Kaj je bil stolp (bergfried) na srednjeveškem gradu?",
         "rezultat": "Najmočnejši in obrambni stolp na gradu",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Stanovanjski del gradu za plemiško družino",
+            "Grajska kapela za bogoslužje",
+            "Dvižni most čez obrambni jarek"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -255,49 +365,89 @@
         "predmet": "zgodovina",
         "vprašanje": "Katera pravila in vrline so morali spoštovati vitezi?",
         "rezultat": "Viteški kodeks (pogum, zvestoba, zaščita šibkejših)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Mestni statut (red, davki, obrt)",
+            "Samostansko pravilo (molitev, delo, pokorščina)",
+            "Cehovski red (kakovost, cene, učenje)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kaj so bili viteški turnirji?",
         "rezultat": "Vojaške in športne tekme vitezov v srednjem veku",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Verski obredi ob posvetitvi v viteza",
+            "Sejmi, kjer so vitezi prodajali konje in orožje",
+            "Pohodi vitezov v Sveto deželo"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Katero dvo- ali triletno kolobarjenje so kmetje uvedli v srednjem veku za boljši pridelek?",
         "rezultat": "Tripoljni sistem (trilno kolobarjenje)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Dvopoljni sistem (požigalništvo)",
+            "Namakalni sistem (terase)",
+            "Štiripoljni sistem (sodobno kolobarjenje)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Katera nova naprava z železnim lemežem je izboljšala obdelavo zemlje v srednjem veku?",
         "rezultat": "Težki železni plug na kolesih",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Leseno ralo brez koles",
+            "Parni traktor s plugom",
+            "Ročna motika z železno konico"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako sta delovala mlin na veter in vodni mlin?",
         "rezultat": "Izkoriščala sta moč vetra ali vode za mletje žita",
-        "vrednost vprašanja": 1
+        "vrednost vprašanja": 1,
+        "napačni odgovori": [
+            "Izkoriščala sta moč živali za mletje žita",
+            "Izkoriščala sta paro za poganjanje strojev",
+            "Izkoriščala sta moč vetra ali vode za namakanje polj"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Zakaj so se v razvitem srednjem veku začela ponovno razvijati mesta?",
         "rezultat": "Zaradi razcveta obrti in trgovine",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Zaradi upada prebivalstva na podeželju",
+            "Zaradi ukaza papeža o gradnji mest",
+            "Zaradi konca križarskih vojn"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kdo so bili svobodni prebivalci srednjeveških mest?",
         "rezultat": "Mestni obrtniki in trgovci (meščani)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Tlačani in podložniki (kmetje)",
+            "Vitezi in plemiči (fevdalci)",
+            "Redovniki in duhovniki (kler)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kateri znan rek je veljal za pobegle kmete v mesta? ('Mestni zrak...')",
         "rezultat": "'Mestni zrak osvobaja' (če je živel v mestu eno leto in en dan)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "'Moli in delaj' (če je delal v mestnem samostanu)",
+            "'Kdor ne dela, naj ne je' (če je delal v cehu)",
+            "'Vse poti vodijo v Rim' (če je romal v Rim)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -309,25 +459,45 @@
         "predmet": "zgodovina",
         "vprašanje": "Kakšna je bila vloga cahov?",
         "rezultat": "Določanje kakovosti pridelkov, cen, zaščita obrtnikov in nadzor nad konkurenco",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Pobiranje davkov za vladarja in plemstvo",
+            "Obramba mesta in vodenje mestne vojske",
+            "Vodenje šol in prepisovanje knjig"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo mestne pravice, ki jih je vladar podelil mestu?",
         "rezultat": "Mestni privilegiji (mestne pravice)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Fevdalne dajatve (desetina)",
+            "Cehovski redi (cehovska pravila)",
+            "Viteški kodeksi (viteška pravila)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kateri je bil najvišji predstavnik mestne samouprave v srednjeveških mestih?",
         "rezultat": "Župan ali mestni svet",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Škof ali župnik",
+            "Deželni knez ali grof",
+            "Cehovski mojster"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Katera vera je imela popolno prevlado v zahodni Evropi v srednjem veku?",
         "rezultat": "Krščanstvo (Katoliška cerkev)",
-        "vrednost vprašanja": 1
+        "vrednost vprašanja": 1,
+        "napačni odgovori": [
+            "Islam (Kalifat)",
+            "Judovstvo (sinagoga)",
+            "Poganstvo (staroslovanska vera)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -363,7 +533,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Katero pomembno opravilo so v samostanih izvajali redovniki glede književnosti?",
         "rezultat": "Prepisovali so rokopise in knjige",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Tiskali so knjige s tiskarskim strojem",
+            "Prevajali so knjige v slovenščino",
+            "Sežigali so poganske knjige"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -381,7 +556,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Kateri arhitekturni slog srednjega veka prepoznamo po masivnih zidovih in polkrožnih lokih?",
         "rezultat": "Romanika (romanski slog)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Gotika (gotski slog)",
+            "Barok (baročni slog)",
+            "Renesansa (renesančni slog)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -405,7 +585,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Katero celino je Kolumb mislil, da je dosegel?",
         "rezultat": "Indijo (zato je domačine poimenoval Indijanci)",
-        "vrednost vprašanja": 1
+        "vrednost vprašanja": 1,
+        "napačni odgovori": [
+            "Kitajsko (zato je iskal Velikega kana)",
+            "Afriko (zato je domačine poimenoval Afričani)",
+            "Japonsko (zato je iskal zlate palače)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -417,19 +602,34 @@
         "predmet": "zgodovina",
         "vprašanje": "Katera odprava je pod vodstvom koga prva obplula svet med letoma 1519 in 1522?",
         "rezultat": "Odprava Ferdinanda Magellana",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Odprava Krištofa Kolumba",
+            "Odprava Vasca da Game",
+            "Odprava Jamesa Cooka"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo izmenjavo rastlin, živali in bolezni med Staro in Novo celino?",
         "rezultat": "Kolumbovska izmenjava",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Atlantska trgovina",
+            "Velika kolonizacija",
+            "Svilna pot"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Navedi vsaj dve rastlini, ki sta v Evropo prišli iz Amerike.",
         "rezultat": "Krompir, koruza, paradižnik, paprika, tobak",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Pšenica, ječmen, riž, oves, rž",
+            "Čaj, poper, cimet, riž, sladkorni trs",
+            "Oljka, vinska trta, pšenica, ječmen, lan"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -441,7 +641,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Zakaj je bil izum tiskarskega stroja izjemno pomemben za razvoj človeštva?",
         "rezultat": "Omogočil je hitro, cenejše in masovno tiskanje knjig ter širjenje znanja",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Omogočil je prvo zapisovanje besedil na papir",
+            "Omogočil je gradnjo prvih tovarn in železnic",
+            "Omogočil je, da so knjige lahko pisali le redovniki"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -465,7 +670,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Kateri renesančni umetnik je poslikal strop Sikstinske kapele in izklesal kip Davida?",
         "rezultat": "Michelangelo Buonarroti",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Leonardo da Vinci",
+            "Rafael Santi",
+            "Sandro Botticelli"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -477,13 +687,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kaj pomeni heliocentrični sistem?",
         "rezultat": "Teorija, da je Sonce v središču vesolja/sistem, Zemlja in planeti pa krožijo okoli njega",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Teorija, da je Zemlja v središču vesolja, Sonce in planeti pa krožijo okoli nje",
+            "Teorija, da je Zemlja ploščata in jo obdaja ocean",
+            "Teorija, da Sonce in Zemlja krožita okoli Lune"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Katero azijsko ljudstvo in cesarstvo je v 14. in 15. stoletju osvojilo Balkan ter ogrožalo slovenske dežele?",
         "rezultat": "Osmani (Turki) / Osmansko cesarstvo",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Mongoli (Tatari) / Mongolsko cesarstvo",
+            "Arabci (Saraceni) / Arabski kalifat",
+            "Perzijci (Iranci) / Perzijsko cesarstvo"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -495,19 +715,34 @@
         "predmet": "zgodovina",
         "vprašanje": "Kako so prebivalci na Slovenskem opozarjali na bližajočo se turško nevarnost?",
         "rezultat": "S kresovi na hribih in s zvonjenjem v cerkvah",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "S pismi, ki so jih nosili sli na konjih",
+            "S topovskimi streli z ljubljanskega gradu",
+            "Z golobi pismonoši med vasmi"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo utrjene cerkve z obzidji in stolpi, kamor so se kmetje zatekali pred Turki?",
         "rezultat": "Tabori (protiturški tabori)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Gradovi (plemiški gradovi)",
+            "Samostani (redovniški samostani)",
+            "Utrdbe (rimske utrdbe)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Zakaj so na Slovenskem v 15. in 16. stoletju izbruhnili kmečki upori?",
         "rezultat": "Zaradi večanja davkov, tlake, turških vpadov in izgube kmečkih pravic",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Zaradi prepovedi protestantske vere",
+            "Zaradi lakote po izbruhu kuge",
+            "Zaradi zahteve po združitvi vseh Slovencev"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -525,7 +760,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Katero pesem/geslo poznamo iz časa kmečkih uporov na Slovenskem ('Leukup, leukup...')?",
         "rezultat": "'Leukup, leukup, uboga gmajna'",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "'Svoboda, enakost, bratstvo'",
+            "'Mestni zrak osvobaja'",
+            "'Moli in delaj, uboga gmajna'"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -537,7 +777,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Kdo je bil eden glavnih vodij hrvaško-slovenskega kmečkega upora leta 1573?",
         "rezultat": "Matija Gubec (in Ilija Gregorić)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Primož Trubar (in Jurij Dalmatin)",
+            "Martin Luther (in Jan Hus)",
+            "Andrej Turjaški (in Adam Ravbar)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -549,13 +794,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kaj je bila glavna zahteva Martina Luthra glede cerkvenega obredja in jezika?",
         "rezultat": "Da obredje poteka v domačem (ljudskem) jeziku in ne le v latinščini",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Da obredje poteka izključno v latinščini",
+            "Da se ukinejo vse cerkve in duhovniki",
+            "Da papež postane vladar vseh evropskih držav"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo versko gibanje v 16. stoletju, ki se je odcepilo od Katoliške cerkve?",
         "rezultat": "Protestantizem (reformacija)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Protireformacija (katoliška obnova)",
+            "Humanizem (renesansa)",
+            "Pravoslavje (vzhodna cerkev)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -567,13 +822,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kateri sta bili prvi dve slovenski knjigi, izdani leta 1550?",
         "rezultat": "Catechismus (Katekizem) in Abecedarium (Abecednik)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Biblija (Sveto pismo) in Postila (Pridige)",
+            "Brižinski spomeniki (Spovedi) in Stiški rokopis (Pesmi)",
+            "Arcticae horulae (Slovnica) in Kranjska čbelica (Zbornik)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "S katerim znamenitim nagovorom je Primož Trubar nagovoril rojake v Katekizmu?",
         "rezultat": "'Ena sledni človek' oz. 'Lubi Slovenci'",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "'Žive naj vsi narodi' oz. 'Dragi rojaki'",
+            "'Moli in delaj' oz. 'Bratje Slovani'",
+            "'Mestni zrak osvobaja' oz. 'Slovenci, vstanite'"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -597,6 +862,11 @@
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo ukrepe Katoliške cerkve za zatrtje protestantizma na Slovenskem sredi 16. in 17. stoletja?",
         "rezultat": "Protireformacija (in verske komisije)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Reformacija (in tiskanje knjig)",
+            "Renesansa (in humanizem)",
+            "Razsvetljenstvo (in šolske reforme)"
+        ]
     }
 ]

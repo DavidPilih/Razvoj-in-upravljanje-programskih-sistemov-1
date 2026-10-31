@@ -9,19 +9,34 @@
         "predmet": "zgodovina",
         "vprašanje": "Kdo sta bila znana francoska razsvetljenska filozofit, ki sta se zavzemala za človeške pravice in delitev oblasti?",
         "rezultat": "Voltaire in Montesquieu",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Robespierre in Danton",
+            "Napoleon in Talleyrand",
+            "Descartes in Pascal"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo vladarsko obliko, kjer vladar (npr. Jožef II.) vlada sam, a skuša uvesti razsvetljene reforme?",
         "rezultat": "Razsvetljeni absolutizem",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Ustavna monarhija",
+            "Parlamentarna republika",
+            "Fevdalna monarhija"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kateri habsburški vladar in vladarica sta v 18. stoletju uvedla šolsko obveznost ter reforme v habsburški monarhiji?",
         "rezultat": "Marija Terezija in Jožef II.",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Karel VI. in Leopold I.",
+            "Franc Jožef in Elizabeta",
+            "Maksimilijan I. in Ferdinand I."
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -33,13 +48,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kaj je bila glavna značilnost industrijske revolucije, ki se je začela sredi 18. stoletja?",
         "rezultat": "Prehod z ročnega dela v manufakturah na strojno delo v tovarnah",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Prehod s strojnega dela v tovarnah na ročno delo v delavnicah",
+            "Prehod s kmetijstva na lov in nabiralništvo",
+            "Prehod z vodnih mlinov na mline na veter"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "V kateri državi se je prva začela industrijska revolucija?",
         "rezultat": "V Angliji (Veliki Britaniji)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "V Franciji (Kraljevini Franciji)",
+            "V Nemčiji (Prusiji)",
+            "V Ameriki (Združenih državah)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -57,7 +82,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Kaj je bila posledica uporabe parnega stroja v prometu?",
         "rezultat": "Izum parnika in parne lokomotive (železnice)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Izum avtomobila in letala (letalstvo)",
+            "Izum kolesa in kočije (konjski promet)",
+            "Izum električnega tramvaja (mestni promet)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -69,13 +99,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo družbeni sloj lastnikov tovarn, kapitala in bank v 19. stoletju?",
         "rezultat": "Buržuazija (kapitalisti)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Proletariat (delavski razred)",
+            "Plemstvo (aristokracija)",
+            "Duhovščina (kler)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo nov družbeni sloj delavcev, ki so delali v tovarnah za mezdo?",
         "rezultat": "Proletariat (delavski razred)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Buržuazija (kapitalisti)",
+            "Tlačani (podložni kmetje)",
+            "Plemstvo (aristokracija)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -87,13 +127,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Zakaj so v začetku industrijske revolucije pogosto zaposlovali ženske in otroke?",
         "rezultat": "Ker so jim lahko plačevali veliko nižje plače kot moškim",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Ker so bili močnejši in bolj vzdržljivi od moških",
+            "Ker je zakon prepovedoval zaposlovanje moških",
+            "Ker so imeli več izobrazbe kot moški"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kaj je bil glavni cilj nastanka prvih delavskih združenj (sindikatov)?",
         "rezultat": "Boj za višje plače, krajši delovnik in boljše delovne pogoje",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Pomoč lastnikom tovarn pri večanju dobička",
+            "Ustanavljanje novih tovarn in bank",
+            "Uvedba fevdalnih dajatev za delavce"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -117,7 +167,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo politiko širjenja oblasti države nad drugimi ozemlji z namenom pridobivanja surovin in trgov?",
         "rezultat": "Imperializem (kolonializem)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Liberalizem (svobodni trg)",
+            "Nacionalizem (narodna zavest)",
+            "Socializem (delavsko gibanje)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -153,31 +208,56 @@
         "predmet": "zgodovina",
         "vprašanje": "S katerim dogodkom se je uradno začela francoska revolucija 14. julija 1789?",
         "rezultat": "Z zavzetjem pariške trdnjave-ječe Bastilja",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Z usmrtitvijo kralja Ludvika XVI. na giljotini",
+            "S kronanjem Napoleona za francoskega cesarja",
+            "Z zavzetjem kraljeve palače v Versaillesu"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako se imenuje pomemben dokument o človekovih pravicah, ki ga je sprejela francoska skupščina leta 1789?",
         "rezultat": "Deklaracija o pravicah človeka in državljana",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Napoleonov zakonik (Code Civil)",
+            "Deklaracija o neodvisnosti ZDA",
+            "Splošna deklaracija človekovih pravic OZN"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kakšno je bilo glavno geslo francoske revolucije?",
         "rezultat": "'Svoboda, enakost, bratstvo'",
-        "vrednost vprašanja": 1
+        "vrednost vprašanja": 1,
+        "napačni odgovori": [
+            "'Bog, kralj in domovina'",
+            "'Mestni zrak osvobaja'",
+            "'Kruh, mir in zemlja'"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kdo so bili jakobinci med francosko revolucijo?",
         "rezultat": "Radikalna politična skupina pod vodstvom Maximiliena Robespierreja",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Zmerna politična skupina, ki je podpirala kralja Ludvika XVI.",
+            "Vojaška enota pod vodstvom Napoleona Bonaparta",
+            "Skupina duhovnikov, ki je branila Katoliško cerkev"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo krvavo obdobje vladavine jakobincev, ko so množično uporabljali giljotino?",
         "rezultat": "Jakobinska diktatura (obdobje terorja)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Napoleonova vladavina (cesarstvo)",
+            "Restavracija (vrnitev Burbonov)",
+            "Direktorij (vladavina petih direktorjev)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -189,7 +269,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Kako se imenuje Napoleonov obsežen zakonik, ki je vpeljal enakost pred zakonom?",
         "rezultat": "Napoleonov zakonik (Code Civil)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Deklaracija o pravicah človeka in državljana",
+            "Kontinentalna zapora",
+            "Sveta aliansa"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -207,13 +292,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kje je Napoleon preživel zadnje leta v izgnanstvu po porazu pri Waterlooju (1815)?",
         "rezultat": "Na otoku Sveta Helena",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Na otoku Elba",
+            "Na otoku Korzika",
+            "Na otoku Malta"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kaj je bil glavni sklep Dunajskega kongresa (1814–1815)?",
         "rezultat": "Obnova stare fevdalne ureditve in meja v Evropi (restavracija)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Ustanovitev Društva narodov za ohranjanje miru",
+            "Razglasitev Napoleona za cesarja Evrope",
+            "Združitev Nemčije in Italije v enotni državi"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -231,7 +326,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Katere zahteve so postavili revolucionarji v avstrijskem cesarstvu in na Slovenskem marca 1848?",
         "rezultat": "Marčne zahteve (svoboda tiska, ustava, Zedinjena Slovenija)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Majniška deklaracija (samostojna Slovenija)",
+            "Majska deklaracija (združitev Južnih Slovanov)",
+            "Dunajski kongres (obnova stare ureditve)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -249,7 +349,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Kaj je zahteval program Zedinjena Slovenija?",
         "rezultat": "Združitev vseh Slovencev v eno kraljestvo znotraj monarhije, uradni slovenski jezik in parlament",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Priključitev vseh slovenskih dežel k Italiji",
+            "Ustanovitev samostojne slovenske republike zunaj monarhije",
+            "Združitev vseh Južnih Slovanov v Kraljevino SHS"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -267,13 +372,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kaj je bil oktroirani (vsiljeni) stadion v Avstriji leta 1849?",
         "rezultat": "Ustava, ki jo je cesar vsilil brez odobritve parlamenta",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Ustava, ki jo je sprejel izvoljeni parlament",
+            "Zakon o odpravi tlake in fevdalnih dajatev",
+            "Mirovna pogodba med Avstrijo in Prusijo"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo obdobje prizadevanj za uveljavitev slovenskega jezika, kulture in narodne zavesti v 19. stoletju?",
         "rezultat": "Slovenski narodni preporod",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Slovenska reformacija",
+            "Slovenska moderna",
+            "Slovenska osamosvojitev"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -291,7 +406,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Katera kitica Zdravljice je danes slovenska državna himna?",
         "rezultat": "Sedma kitica ('Žive naj vsi narodi...')",
-        "vrednost vprašanja": 1
+        "vrednost vprašanja": 1,
+        "napačni odgovori": [
+            "Prva kitica ('Prijatlji! obrodile...')",
+            "Četrta kitica ('Edinost, sreča, sprava...')",
+            "Osma kitica ('Nazadnje, prijatlji...')"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -303,7 +423,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Zakaj so Kmetijske in rokodelske novice pomembne za Slovence?",
         "rezultat": "Bile so osrednji časopis, ki je širil slovensko zavest in pismenost med ljudmi",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Bile so nemški uradni časopis, ki je širil nemški jezik med Slovenci",
+            "Bile so prva slovenska knjiga, ki jo je napisal Primož Trubar",
+            "Bile so zbirka ljudskih pesmi, ki jo je uredil France Prešeren"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -321,13 +446,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kaj so bili slovenski tabori v 60. in 70. letih 19. stoletja?",
         "rezultat": "Množična ljudska zborovanja na prostem, kjer so zahtevali Zedinjeno Slovenijo",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Vojaška taborišča avstrijske vojske na slovenskem ozemlju",
+            "Utrjene cerkve, kamor so se ljudje zatekali pred Turki",
+            "Tajni sestanki slovenskih poslancev na Dunaju"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kje je potekal prvi slovenski tabor leta 1868?",
         "rezultat": "V Šempetru pri Gorici (pri Lembergu / pri Laškem je bil kasneje slaven tabor pri Laškem - 1869)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "V Ljubljani (na Kongresnem trgu)",
+            "V Mariboru (na Štajerskem)",
+            "V Celovcu (na Koroškem)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -339,13 +474,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Katera politična stranka ali tabor se je izoblikoval na Slovenskem v 1890-ih (poleg klerikalcev in liberalcev)?",
         "rezultat": "Socialdemokrati (delavska stranka)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Komunisti (Komunistična partija)",
+            "Zeleni (okoljska stranka)",
+            "Monarhisti (kraljeva stranka)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kdo je bil voditelj slovenske klerikalne (ljudske) stranke na prehodu v 20. stoletje?",
         "rezultat": "Janez Evangelist Krek",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Ivan Tavčar",
+            "Ivan Hribar",
+            "Janez Bleiweis"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -357,13 +502,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kaj je bila 'Ljubljanska zemljotresna' prelomnica za mesto Ljubljana?",
         "rezultat": "Potres leta 1895, po katerem se je mesto močno posodobilo (župan Ivan Hribar)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Požar leta 1895, po katerem so mesto preselili na drugo lokacijo",
+            "Poplava leta 1895, po kateri so izsušili Ljubljansko barje",
+            "Potres leta 1895, po katerem so mesto zapustili vsi prebivalci"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kako imenujemo proces združitve italijanskih držav v enotno državo v 19. stoletju?",
         "rezultat": "Risorgimento (Združitev Italije)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Renesansa (Preporod umetnosti)",
+            "Restavracija (Obnova monarhije)",
+            "Anschluss (Priključitev Avstrije)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -387,19 +542,34 @@
         "predmet": "zgodovina",
         "vprašanje": "Kako se je imenovalo novo nemško cesarstvo, razglašeno v Versaillesu leta 1871?",
         "rezultat": "Nemški rajh (Drugi rajh)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Sveto rimsko cesarstvo (Prvi rajh)",
+            "Weimarska republika (Nemška republika)",
+            "Tretji rajh (Nacistična Nemčija)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Katera država je leta 1867 postala Avstro-Ogrska (dvojna monarhija)?",
         "rezultat": "Avstrijsko cesarstvo (z nagodbo z Madžarskimi)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Kraljevina Prusija (z zvezo z Bavarsko)",
+            "Ruski imperij (s priključitvijo Poljske)",
+            "Kraljevina Italija (z združitvijo Benetk)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Katere dve enoti sta sestavljali Avstro-Ogrsko monarhijo?",
         "rezultat": "Cislajtanija (avstrijski del) in Translajtanija (ogrski del)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Kranjska (avstrijski del) in Hrvaška (ogrski del)",
+            "Prusija (severni del) in Bavarska (južni del)",
+            "Češka (zahodni del) in Galicija (vzhodni del)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -411,19 +581,34 @@
         "predmet": "zgodovina",
         "vprašanje": "Kateri del slovenskega ozemlja je bil pod neposredno avstrijsko oblastjo v Cislajtaniji?",
         "rezultat": "Kranjska, Štajerska, Koroška, Primorska, Istra",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Prekmurje in Medžimurje",
+            "Hrvaška, Slavonija in Dalmacija",
+            "Bosna, Hercegovina in Črna gora"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kaj je bila industrializacija na slovenskem ozemlju v 19. stoletju?",
         "rezultat": "Gradnja železnic (Južna železnica Dunaj-Trst 1857), razvoj rudnikov in tovarn",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Gradnja prvih letališč in avtocest ter razvoj elektronske industrije",
+            "Opuščanje tovarn in vrnitev h kmetovanju",
+            "Gradnja gradov in samostanov ter razvoj cehov"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Katere afriške države so si evropske velesile v 19. stoletju skoraj v celoti razdelile?",
         "rezultat": "Afriko (kolonialni delitev Afrike)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Avstralijo (kolonialna delitev Avstralije)",
+            "Južno Ameriko (kolonialna delitev Amerike)",
+            "Antarktiko (raziskovanje polarnih območij)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -435,25 +620,45 @@
         "predmet": "zgodovina",
         "vprašanje": "Kakšne so bile napetosti med velesilami pred 1. svetovno vojno zaradi kolonij?",
         "rezultat": "Boj za trge, surovine in prevlado (imperialistični spori)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Spori glede verskih vprašanj (verske vojne)",
+            "Skupna prizadevanja za mir (mirovne konference)",
+            "Spori glede prestolonasledja (dinastične vojne)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Katera dva vojaška bloka sta seoblikovala v Evropi pred letom 1914?",
         "rezultat": "Trojna ententa in centralne sile",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "NATO in Varšavski pakt",
+            "Sveta aliansa in Napoleonova Francija",
+            "Os Rim–Berlin–Tokio in zavezniki"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Katere države so sestavljale Trojno entento?",
         "rezultat": "Velika Britanija, Francija in Rusija",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Nemčija, Avstro-Ogrska in Italija",
+            "Velika Britanija, Francija in ZDA",
+            "Rusija, Srbija in Japonska"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Katere države so bile v jedru centralnih sil (trojnega paketa)?",
         "rezultat": "Nemčija, Avstro-Ogrska in Italija (kasneje Italija izstopila)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Velika Britanija, Francija in Rusija",
+            "Nemčija, Italija in Japonska",
+            "Avstro-Ogrska, Srbija in Rusija"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -465,13 +670,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kateri dogodek je sprožil prvo svetovno vojno 28. junija 1914?",
         "rezultat": "Sarajevski atentat na avstrijskega prestolonaslednika Franca Ferdinanda",
-        "vrednost vprašanja": 1
+        "vrednost vprašanja": 1,
+        "napačni odgovori": [
+            "Nemški napad na Poljsko in razdelitev Poljske",
+            "Potopitev ladje Lusitania z nemško podmornico",
+            "Atentat na jugoslovanskega kralja Aleksandra v Marseillu"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kdo je izvedel sarajevski atentat?",
         "rezultat": "Gavrilo Princip (član organizacije Mlada Bosna)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Franc Ferdinand (avstrijski prestolonaslednik)",
+            "Leon Trocki (ruski revolucionar)",
+            "Vladimir Gortan (član organizacije TIGR)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -501,7 +716,12 @@
         "predmet": "zgodovina",
         "vprašanje": "Kje je potekala krvava fronta med Italijo in Avstro-Ogrsko, ki je močno prizadela Slovence?",
         "rezultat": "Na reki Soči (Soška fronta)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Na reki Somi (Zahodna fronta)",
+            "Na reki Marni (Zahodna fronta)",
+            "Na reki Dravi (Koroška fronta)"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -513,25 +733,45 @@
         "predmet": "zgodovina",
         "vprašanje": "Katera soška bitka (leta 1917) se je končala z umikom Italijanov (preboj pri Kobaridu)?",
         "rezultat": "12. soška bitka (Čudež pri Kobaridu)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "1. soška bitka (Napad na Krn)",
+            "6. soška bitka (Padec Gorice)",
+            "11. soška bitka (Bitka na Banjški planoti)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kaj je bila Majska deklaracija leta 1917?",
         "rezultat": "Zahteva slovenskih poslancev v dunajskem parlamentu po združenju vseh Južnih Slovanov v habsburški monarhiji",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Zahteva slovenskih poslancev po samostojni slovenski republiki zunaj monarhije",
+            "Mirovna pogodba med Avstro-Ogrsko in Italijo o novi meji",
+            "Razglasitev Kraljevine SHS v Beogradu"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kaj je bil Krfski deklaracija (1917)?",
         "rezultat": "Dogovor med jugoslovanskim odborom v izgnanstvu in srbsko vlado o ustanovitvi skupne države",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Mirovna pogodba med Srbijo in Avstro-Ogrsko o koncu vojne",
+            "Dogovor med Italijo in antanto o priključitvi Primorske",
+            "Razglasitev samostojne Države Slovencev, Hrvatov in Srbov v Zagrebu"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kaj se je zgodilo z Avstro-Ogrsko ob koncu vojne oktobra/novembra 1918?",
         "rezultat": "Razpadla je na več samostojnih držav",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Postala je del Nemškega cesarstva",
+            "Zmagala je in povečala svoje ozemlje",
+            "Spremenila se je v sovjetsko republiko"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -555,19 +795,34 @@
         "predmet": "zgodovina",
         "vprašanje": "Kakšno orožje je bilo prvič množično uporabljeno v prvi svetovni vojni?",
         "rezultat": "Bojni strupi (plin), tanki, mitraljezi, letala in podmornice",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Atomske bombe, balistične rakete, radarji in reaktivna letala",
+            "Katapulti, samostreli, oklepi in oblegovalni stolpi",
+            "Droni, satelitsko vodenje, računalniški sistemi in laserji"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kdo je podpisal premirje v Compiègneju, s katerim se je končala vojna na zahodni fronti?",
         "rezultat": "Nemčija in zavezniki (11. novembra 1918)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Avstro-Ogrska in Italija (4. novembra 1918)",
+            "Rusija in Nemčija (3. marca 1918)",
+            "Francija in Velika Britanija (28. junija 1919)"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "S katero mirovno pogodbo leta 1919 je bila uradno zapečatena usoda poražene Nemčije in meja v Evropi?",
         "rezultat": "Versajska mirovna pogodba",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Rapalska mirovna pogodba",
+            "Brest-litovska mirovna pogodba",
+            "Pariška mirovna pogodba 1947"
+        ]
     },
     {
         "predmet": "zgodovina",
@@ -579,13 +834,23 @@
         "predmet": "zgodovina",
         "vprašanje": "Kaj je bila pariška komuna leta 1871?",
         "rezultat": "Kratkotrajna revolucionarna oblast delavcev v Parizu",
-        "vrednost vprašanja": 4
+        "vrednost vprašanja": 4,
+        "napačni odgovori": [
+            "Prvi francoski parlament po padcu Napoleona",
+            "Mestna uprava, ki jo je ustanovil Napoleon",
+            "Zveza francoskih in nemških mest za trgovino"
+        ]
     },
     {
         "predmet": "zgodovina",
         "vprašanje": "Kaj pomeni izraz industrializacija?",
         "rezultat": "Prehod družbe iz agrarnozemeljske na industrijsko proizvodnjo",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Prehod družbe iz industrijske nazaj na kmetijsko proizvodnjo",
+            "Prehod družbe iz mestnega v podeželsko življenje",
+            "Prehod s strojnega dela na ročno izdelovanje"
+        ]
     },
     {
         "predmet": "zgodovina",

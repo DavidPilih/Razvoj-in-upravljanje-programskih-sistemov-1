@@ -429,7 +429,12 @@
         "predmet": "matematika",
         "vprašanje": "Kako imenujemo trikotnik, ki ima vse tri stranice enake dolžine?",
         "rezultat": "Enakostranični trikotnik",
-        "vrednost vprašanja": 1
+        "vrednost vprašanja": 1,
+        "napačni odgovori": [
+            "Enakokraki trikotnik",
+            "Raznostranični trikotnik",
+            "Pravokotni trikotnik"
+        ]
     },
     {
         "predmet": "matematika",
@@ -525,7 +530,12 @@
         "predmet": "matematika",
         "vprašanje": "Kaj je višina trikotnika?",
         "rezultat": "Daljica iz oglišča, pravokotna na nasprotno stranico",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Daljica iz oglišča do razpolovišča nasprotne stranice",
+            "Daljica, ki razpolavlja notranji kot trikotnika",
+            "Premica, ki poteka skozi dve oglišči trikotnika"
+        ]
     },
     {
         "predmet": "matematika",

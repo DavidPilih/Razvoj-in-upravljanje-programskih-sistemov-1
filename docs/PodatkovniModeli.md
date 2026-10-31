@@ -19,7 +19,7 @@ Express backend with a MongoDB database (Mongoose).
 | Model | Purpose |
 |---|---|
 | `Student` | Student account: `username` + `password`, `firstName`, `lastName`, `nickname`, `grade` (7–9), `classLabel` (e.g. `"7.a"`), scores, daily streak and 1v1 rating |
-| `Question` | `subject` (`math` / `history`), `grade`, `text`, `answer`, `acceptedAnswers`, `wrongAnswers` (Kahoot choices), `points`, `active` |
+| `Question` | `subject` (`math` / `history`), `grade`, `text`, `answer`, `acceptedAnswers`, `wrongAnswers` (multiple choice), `points`, `active` |
 | `DailyChallenge` | The daily question: one per `date` (`"YYYY-MM-DD"`) per grade |
 | `GameSession` | One played game in any `mode` (`daily`, `kahoot`, `duel`): its questions, players, each answer with `correct`, `pointsEarned` and `timeMs`, plus `status`, `roomCode` and `winner` |
 
@@ -47,6 +47,8 @@ Files are named `<subject>_<grade>.json` (`mat_7.json`, `zgo_9.json`). The seed 
 | `vprašanje` | `text` |
 | `rezultat` | `answer` (math answers like `"1/2 ali 0.5"` are also split into `acceptedAnswers`) |
 | `vrednost vprašanja` | `points` |
-| `napačni odgovori` | `wrongAnswers`, an array of strings for Kahoot |
+| `napačni odgovori` | `wrongAnswers`, an array of 3 wrong answers |
+
+Questions whose answer is longer than 20 characters have 3 wrong answers. The API never sends `wrongAnswers` itself: it mixes them with the correct answer into a shuffled `choices` array (`server/utils/choices.js`), and the client shows those 4 options as buttons instead of a text field. After changing the files, run `npm run seed` again.
 
 To add a new subject, add its file prefix to `SUBJECT_BY_PREFIX` in `server/scripts/seedQuestions.js` and its name to `SUBJECTS` in `server/models/constants.js`.

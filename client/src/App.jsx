@@ -149,7 +149,7 @@ function App() {
           <div className="quiz-grid">
             <button className="quiz-choice choice-daily" disabled={checking || busy} onClick={() => {
               setError(''); setMessage(''); setDaily(true)
-            }}><span className="choice-art"><Chest /></span><span className="choice-title">Daily</span><span className="choice-tag">Zmajev zaklad</span><span>5 naključnih vprašanj iz različnih predmetov.</span><span className="choice-action">Začni kviz →</span></button>
+            }}><span className="choice-art"><Chest /></span><span className="choice-title">Dnevni lov</span><span className="choice-tag">Zmajev zaklad</span><span>5 naključnih vprašanj iz različnih predmetov.</span><span className="choice-action">Začni kviz →</span></button>
             <button className="quiz-choice choice-classic" disabled={checking || busy} onClick={() => { setError(''); setMessage(''); setKlasicno(true) }}>
               <span className="choice-art"><Scroll /></span><span className="choice-title">Klasično</span><span className="choice-tag">Viteška šola</span><span>Izberi razred in predmet. Rešuj sklope po 10 vprašanj.</span><span className="choice-action">Izberi kviz →</span>
             </button>

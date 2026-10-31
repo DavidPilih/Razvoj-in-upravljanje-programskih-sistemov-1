@@ -159,13 +159,23 @@
         "predmet": "matematika",
         "vprašanje": "Koliko rešitev ima kvadratna enačba, če je diskriminanta D = 0?",
         "rezultat": "Eno rešitev (dve enaki)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Dve različni realni rešitvi",
+            "Ni rešitev v množici realnih števil",
+            "Neskončno mnogo rešitev"
+        ]
     },
     {
         "predmet": "matematika",
         "vprašanje": "Koliko rešitev ima kvadratna enačba, če je diskriminanta D < 0?",
         "rezultat": "Ni rešitev v množici realnih števil",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Eno rešitev (dve enaki)",
+            "Dve različni realni rešitvi",
+            "Neskončno mnogo realnih rešitev"
+        ]
     },
     {
         "predmet": "matematika",
@@ -183,7 +193,12 @@
         "predmet": "matematika",
         "vprašanje": "Zapiši Vietovi pravili za x² + px + q = 0 (vsota x₁ + x₂ in produkt x₁ * x₂)",
         "rezultat": "x₁ + x₂ = -p, x₁ * x₂ = q",
-        "vrednost vprašanja": 4
+        "vrednost vprašanja": 4,
+        "napačni odgovori": [
+            "x₁ + x₂ = p, x₁ * x₂ = q",
+            "x₁ + x₂ = q, x₁ * x₂ = -p",
+            "x₁ + x₂ = -p, x₁ * x₂ = -q"
+        ]
     },
     {
         "predmet": "matematika",
@@ -249,7 +264,12 @@
         "predmet": "matematika",
         "vprašanje": "Kako je usmerjena parabola y = -2x²?",
         "rezultat": "Navzdol (ker je vodilni koeficient negativen)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Navzgor (ker je eksponent pozitiven)",
+            "V levo (ker je koeficient negativen)",
+            "Navzgor (ker je x² vedno pozitiven)"
+        ]
     },
     {
         "predmet": "matematika",
@@ -261,7 +281,12 @@
         "predmet": "matematika",
         "vprašanje": "Kaj določa predznak koeficienta a pri funkciji y = ax² + bx + c?",
         "rezultat": "Ukrivljenost oz. usmerjenost parabole",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Presečišče parabole z osjo y",
+            "Lego temena na osi x",
+            "Število ničel parabole"
+        ]
     },
     {
         "predmet": "matematika",
@@ -327,25 +352,45 @@
         "predmet": "matematika",
         "vprašanje": "Ali graf funkcije y = x² + 2 seka os x?",
         "rezultat": "Ne (nima realnih ničel)",
-        "vrednost vprašanja": 3
+        "vrednost vprašanja": 3,
+        "napačni odgovori": [
+            "Da (v točki x = 2)",
+            "Da (v točkah x = -2 in x = 2)",
+            "Da (v točki x = 0)"
+        ]
     },
     {
         "predmet": "matematika",
         "vprašanje": "Kako definiramo sinus ostrega kota v pravokotnem trikotniku (nasproti ležeča / hipotenuza)?",
         "rezultat": "Nasproti ležeča kateta deljena s hipotenuzo",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Priležeča kateta deljena s hipotenuzo",
+            "Nasproti ležeča kateta deljena s priležečo kateto",
+            "Hipotenuza deljena z nasproti ležečo kateto"
+        ]
     },
     {
         "predmet": "matematika",
         "vprašanje": "Kako definiramo kosinus ostrega kota v pravokotnem trikotniku?",
         "rezultat": "Ležeča kateta deljena s hipotenuzo",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Nasproti ležeča kateta deljena s hipotenuzo",
+            "Ležeča kateta deljena z nasproti ležečo kateto",
+            "Hipotenuza deljena z ležečo kateto"
+        ]
     },
     {
         "predmet": "matematika",
         "vprašanje": "Kako definiramo tangens ostrega kota v pravokotnem trikotniku?",
         "rezultat": "Nasproti ležeča deljena s priležečo kateto",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Priležeča deljena z nasproti ležečo kateto",
+            "Nasproti ležeča kateta deljena s hipotenuzo",
+            "Priležeča kateta deljena s hipotenuzo"
+        ]
     },
     {
         "predmet": "matematika",
@@ -423,13 +468,23 @@
         "predmet": "matematika",
         "vprašanje": "Kaj pravi Talesov izrek?",
         "rezultat": "Kot nad premerom kroga je pravi kot (90°)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Kot nad premerom kroga je iztegnjeni kot (180°)",
+            "Vsota notranjih kotov trikotnika je 180°",
+            "Obodni kot je dvakrat večji od središčnega"
+        ]
     },
     {
         "predmet": "matematika",
         "vprašanje": "Kakšna je zveza med središčnim in obodnim kotom nad istim lokom?",
         "rezultat": "Središčni kot je dvakrat večji od obodnega kota",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Obodni kot je dvakrat večji od središčnega kota",
+            "Središčni in obodni kot sta enaka",
+            "Središčni kot je trikrat večji od obodnega kota"
+        ]
     },
     {
         "predmet": "matematika",
@@ -465,13 +520,23 @@
         "predmet": "matematika",
         "vprašanje": "Kaj je tetiva krožnice?",
         "rezultat": "Daljica, ki povezuje dve točki na krožnici",
-        "vrednost vprašanja": 1
+        "vrednost vprašanja": 1,
+        "napačni odgovori": [
+            "Daljica od središča do točke na krožnici",
+            "Premica, ki se krožnice dotika v eni točki",
+            "Del krožnice med dvema točkama"
+        ]
     },
     {
         "predmet": "matematika",
         "vprašanje": "Kaj je premer (diametar) krožnice glede na polmer?",
         "rezultat": "Je dvakrat daljši od polmera (d = 2r)",
-        "vrednost vprašanja": 1
+        "vrednost vprašanja": 1,
+        "napačni odgovori": [
+            "Je enak polmeru (d = r)",
+            "Je pol krajši od polmera (d = r/2)",
+            "Je π-krat daljši od polmera (d = πr)"
+        ]
     },
     {
         "predmet": "matematika",
@@ -501,7 +566,12 @@
         "predmet": "matematika",
         "vprašanje": "Ali je vsak pravokotni trikotnik vrisan v polkrožnico tako, da je hipotenuza premer?",
         "rezultat": "Da (po Talesovem izreku)",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Ne (hipotenuza je vedno krajša od premera)",
+            "Da, a le pri enakokrakem pravokotnem trikotniku",
+            "Ne (premer je vedno ena od katet)"
+        ]
     },
     {
         "predmet": "matematika",
@@ -561,7 +631,12 @@
         "predmet": "matematika",
         "vprašanje": "Kaj je mediana v statistični vrsti?",
         "rezultat": "Srednja vrednost urejene vrste podatkov",
-        "vrednost vprašanja": 2
+        "vrednost vprašanja": 2,
+        "napačni odgovori": [
+            "Povprečje vseh podatkov v vrsti",
+            "Podatek, ki se v vrsti pojavi največkrat",
+            "Razlika med največjim in najmanjšim podatkom"
+        ]
     },
     {
         "predmet": "matematika",

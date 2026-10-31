@@ -11,9 +11,21 @@ DELETE /api/auth/me  (prijava) izbrise racun
 VPRASANJA
 GET    /api/questions?subject=math&grade=7&count=10 subject: math/history, grade: 7-9
 POST   /api/questions/:id/checkAnswer  (prijava) { answer }  vrne { correct, correctAnswer }, za pravilnega dobi 50 tock (ce je prijavljen)  //NOVO
+       ce je prijavljen, se steje tudi stats.totalAnswers/correctAnswers in scoreBySubject //NOVO
+Vprasanja z daljsim odgovorom (> 20 znakov) imajo polje choices: 4 premesani odgovori, od katerih je 1 pravilen. //NOVO
+       Velja za /api/questions, /api/questions/klasicno, /api/daily, /api/daily/quiz in multiplayer. wrongAnswers se nikoli ne poslje.
 
 DAILY
 GET    /api/daily  (prijava) danasnje vprasanje za razred ucenca
 
 SCORING
 POST   /api/scoring/changeElo  (prijava) { opponent_elo, result }  result je 1 ce zmaga, 0 ce izgubi, vrne elo_change in duelRating //NOVO
+
+PROFIL
+GET    /api/profile  (prijava) vrne { student, rank: { overall, grade } }, rank = mesto po totalScore //NOVO
+PATCH  /api/profile  (prijava) { nickname, grade, classLabel } (vsa polja neobvezna), vrne posodobljenega studenta, 409 ce je vzdevek zaseden //NOVO
+
+LESTVICA
+GET    /api/leaderboard?by=total&grade=7  by: total/math/history/duel, grade neobvezno; vrne { entries, me } //NOVO
+       entries: top 20 { rank, nickname, grade, value, me }, samo vzdevki (otroci so mladoletni)
+       me: tvoja vrstica, ce si prijavljen in nisi v top 20, sicer null

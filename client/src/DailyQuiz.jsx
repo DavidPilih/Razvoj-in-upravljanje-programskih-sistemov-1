@@ -18,7 +18,7 @@ export default function DailyQuiz({ student, onBack }) {
   if (!student && !guestGrade) return (
     <section className="quiz-panel">
       <button className="text-button back-button" onClick={onBack}>← Nazaj na izbiro</button>
-      <h1>Daily</h1>
+      <h1>Dnevni lov</h1>
       <p className="intro">Igraš kot gost. Rezultat se ne shrani in točke se ne prištejejo računu.</p>
       <form onSubmit={event => {
         event.preventDefault()
@@ -33,6 +33,18 @@ export default function DailyQuiz({ student, onBack }) {
     </section>
   )
   return <Quiz key={`${student?._id || 'guest'}-${student?.grade || guestGrade}`} grade={student?.grade || guestGrade} guest={!student} onBack={onBack} treasure />
+}
+
+// Multiple choice for questions with long answers. `correct` is set once the answer is revealed.
+export function Choices({ choices, picked, correct, disabled, onPick }) {
+  const state = choice => correct !== undefined
+    ? (choice === correct ? ' is-correct' : choice === picked ? ' is-wrong' : '')
+    : choice === picked ? ' is-picked' : ''
+  return <div className="answer-choices" role="group" aria-label="Možni odgovori">
+    {choices.map((choice, position) => <button key={choice} type="button" className={`answer-choice${state(choice)}`} aria-pressed={choice === picked} disabled={disabled} onClick={() => onPick(choice)}>
+      <span className="answer-letter" aria-hidden="true">{'ABCD'[position]}</span>{choice}
+    </button>)}
+  </div>
 }
 
 export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subtitle, treasure }) {
@@ -63,17 +75,17 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
     if (answers.length) sceneRef.current?.scrollIntoView({ block: 'nearest' })
   }, [answers.length])
 
-  async function submit(event) {
-    event.preventDefault()
-    if (busy || feedback || !answer.trim()) return
+  async function check(value) {
+    if (busy || feedback || !value.trim()) return
+    setAnswer(value)
     setBusy(true)
     setError('')
     try {
-      const result = await api(`questions/${question._id}/checkAnswer`, { answer: answer.trim() })
+      const result = await api(`questions/${question._id}/checkAnswer`, { answer: value.trim() })
       if (typeof result?.correct !== 'boolean') {
         throw new Error('Odgovora ni bilo mogoče preveriti.')
       }
-      setAnswers(previous => [...previous, { correct: result.correct, answer: answer.trim(), correctAnswer: result.correctAnswer }])
+      setAnswers(previous => [...previous, { correct: result.correct, answer: value.trim(), correctAnswer: result.correctAnswer }])
     } catch (err) { setError(err.message || 'Povezava s strežnikom ni uspela.') }
     finally { setBusy(false) }
   }
@@ -99,10 +111,10 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
         <p className="intro">Vprašanje {index + 1} od {questions.length} · {question.subject === 'math' ? 'Matematika' : 'Zgodovina'}</p>
         <progress value={index + (feedback ? 1 : 0)} max={questions.length} aria-label="Napredek kviza" />
         <h2 className="question-text">{question.text}</h2>
-        <form onSubmit={submit}>
+        {question.choices ? <Choices choices={question.choices} picked={answer} correct={feedback?.correctAnswer} disabled={busy || Boolean(feedback)} onPick={check} /> : <form onSubmit={event => { event.preventDefault(); check(answer) }}>
           <label>Tvoj odgovor<input key={question._id} name="answer" value={answer} onChange={event => setAnswer(event.target.value)} disabled={busy || Boolean(feedback)} autoComplete="off" required /></label>
           {!feedback && <button className="primary-button" disabled={busy || !answer.trim()}>{busy ? 'Preverjanje …' : 'Preveri odgovor'}</button>}
-        </form>
+        </form>}
         {feedback && <div className="feedback">
           <p role="status"><strong>{feedback.correct ? 'Pravilno!' : 'Odgovor ni pravilen.'}</strong></p>
           {!feedback.correct && feedback.correctAnswer && <p>Pravilni odgovor: <strong>{feedback.correctAnswer}</strong></p>}

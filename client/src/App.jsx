@@ -3,7 +3,9 @@ import './App.css'
 import { Chest, Crest, Horse, Landscape, Scroll, Swords } from './art'
 import DailyQuiz from './DailyQuiz'
 import Klasicno from './Klasicno'
+import Leaderboard from './Leaderboard'
 import Multiplayer from './Multiplayer'
+import Profile from './Profile'
 
 async function request(path, body) {
   let response
@@ -31,6 +33,7 @@ function App() {
   const [daily, setDaily] = useState(false)
   const [klasicno, setKlasicno] = useState(false)
   const [multiplayer, setMultiplayer] = useState(null)
+  const [page, setPage] = useState(null)
   const [student, setStudent] = useState(null)
   const [checking, setChecking] = useState(true)
   const [busy, setBusy] = useState(false)
@@ -52,6 +55,23 @@ function App() {
     setMode(next)
     setError('')
     setMessage('')
+  }
+
+  // Profile and leaderboard replace whatever quiz is open; null returns to the home grid.
+  function openPage(next) {
+    setMode('home')
+    setDaily(false)
+    setKlasicno(false)
+    setMultiplayer(null)
+    setPage(next)
+    setError('')
+    setMessage('')
+  }
+
+  function accountDeleted() {
+    setStudent(null)
+    openPage(null)
+    setMessage('Tvoj račun je izbrisan.')
   }
 
   async function submit(event) {
@@ -99,6 +119,7 @@ function App() {
       setDaily(false)
       setKlasicno(false)
       setMultiplayer(null)
+      setPage(null)
       setMessage('Uspešno si se odjavil.')
     } catch (err) { setError(err.message) }
     finally { setBusy(false) }
@@ -108,10 +129,11 @@ function App() {
     <main className="auth-page">
       <Landscape />
       <header className="site-header">
-        <button className="brand home-button" disabled={busy} onClick={() => { setMode('home'); setDaily(false); setKlasicno(false); setMultiplayer(null); setError(''); setMessage('') }}><Crest />KQviz</button>
+        <button className="brand home-button" disabled={busy} onClick={() => openPage(null)}><Crest />KQviz</button>
         <nav className="account-nav" aria-label="Uporabniški račun">
+          <button className="text-button" onClick={() => openPage('leaderboard')} disabled={busy}>Lestvica</button>
           {checking ? <span role="status">Preverjanje prijave …</span> : student ? <>
-            <span>{student.nickname}</span><button className="text-button" onClick={logout} disabled={busy}>Odjava</button>
+            <button className="text-button" title="Moj profil" onClick={() => openPage('profile')} disabled={busy}>{student.nickname}</button><button className="text-button" onClick={logout} disabled={busy}>Odjava</button>
           </> : <>
             <button className="text-button" onClick={() => changeMode('login')} disabled={busy}>Prijava</button>
             <button className="outline-button" onClick={() => changeMode('register')} disabled={busy}>Registracija</button>
@@ -121,7 +143,7 @@ function App() {
       {mode === 'home' ? <div className="home-content">
         {error && <p className="notice" role="alert">{error}</p>}
         {message && <p className="notice" role="status">{message}</p>}
-        {multiplayer ? <Multiplayer key={multiplayer} mode={multiplayer} student={student} onBack={() => setMultiplayer(null)} /> : klasicno ? <Klasicno student={student} onBack={() => setKlasicno(false)} /> : daily ? <DailyQuiz student={student} onBack={() => setDaily(false)} /> : <>
+        {page === 'profile' && student ? <Profile onBack={() => openPage(null)} onUpdate={setStudent} onDeleted={accountDeleted} /> : page === 'leaderboard' ? <Leaderboard student={student} onBack={() => openPage(null)} /> : multiplayer ? <Multiplayer key={multiplayer} mode={multiplayer} student={student} onBack={() => setMultiplayer(null)} /> : klasicno ? <Klasicno student={student} onBack={() => setKlasicno(false)} /> : daily ? <DailyQuiz student={student} onBack={() => setDaily(false)} /> : <>
           <h1>Izberi svojo pustolovščino</h1>
           <p className="home-tagline">Znanje je tvoj najmočnejši meč!</p>
           <div className="quiz-grid">

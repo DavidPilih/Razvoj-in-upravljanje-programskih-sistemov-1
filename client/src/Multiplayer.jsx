@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { Choices } from './DailyQuiz'
 import DuelScene from './DuelScene'
 import HorseRace from './HorseRace'
 
@@ -158,19 +159,22 @@ export default function Multiplayer({ mode, student, onBack }) {
         {room.status === 'question' && <progress value={seconds} max={30} aria-label="Preostali čas" />}
         <h2 className="question-text">{room.question.text}</h2>
         {room.status === 'question' ? <>
-          <form key={room.question.id} onSubmit={event => {
+          {room.question.choices ? <Choices choices={room.question.choices} picked={currentAnswer} disabled={disabled || room.submitted} onPick={choice => {
+            setAnswer({ questionId: room.question.id, value: choice })
+            send({ type: 'answer', questionId: room.question.id, answer: choice })
+          }} /> : <form key={room.question.id} onSubmit={event => {
             event.preventDefault()
             send({ type: 'answer', questionId: room.question.id, answer: currentAnswer })
           }}>
             <label>Tvoj odgovor<input name="answer" value={currentAnswer} onChange={event => setAnswer({ questionId: room.question.id, value: event.target.value })} maxLength={500} disabled={disabled || room.submitted} required autoComplete="off" /></label>
             <button className="primary-button" disabled={disabled || room.submitted || !currentAnswer.trim()}>{room.submitted ? 'Odgovor oddan' : 'Oddaj odgovor'}</button>
-          </form>
+          </form>}
           {room.submitted && <p role="status">Počakaj na ostale igralce ali iztek časa.</p>}
-        </> : <div className="feedback" role="status">
+        </> : <>{room.question.choices && <Choices choices={room.question.choices} picked={room.yourAnswer} correct={room.correctAnswer} disabled onPick={() => {}} />}<div className="feedback" role="status">
           <p><strong>{me?.correct ? 'Pravilno!' : room.submitted ? 'Odgovor ni pravilen.' : 'Čas za odgovor je potekel.'}</strong></p>
           <p>Tvoj odgovor: {room.yourAnswer || 'Brez odgovora'}</p>
           <p>Pravilni odgovor: <strong>{room.correctAnswer}</strong></p>
-        </div>}
+        </div></>}
       </>}
       <h2 className="leaderboard-title">{room.status === 'finished' ? 'Končna lestvica' : 'Igralci in točke'}</h2>
       <ol className="player-list">{leaderboard.map(player => <li key={player.id}>

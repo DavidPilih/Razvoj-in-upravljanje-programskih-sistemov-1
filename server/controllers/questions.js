@@ -1,6 +1,7 @@
 const QuestionModel = require("../models/Question")
 const StudentModel = require("../models/Student")
 const { SUBJECTS, GRADES } = require("../models/constants");
+const { publicQuestion } = require("../utils/choices");
 
 
 //helper
@@ -19,8 +20,8 @@ async function getQuestions(req,res){
     const questions = await QuestionModel.aggregate([
         { $match: {subject: subject, grade: grade}},
         { $sample: {size: count}},
-        { $project:{ answer:0,acceptedAnswers:0}}
-    ]);
+        { $project:{ acceptedAnswers:0}}
+    ]).then(found => found.map(publicQuestion));
     if(questions.length ===0){
         res.status(400);
         res.json("ni vprasanj");
@@ -44,8 +45,10 @@ async function checkAnswer(req,res){
     const accepted_answers = [question.answer, ...(question.acceptedAnswers || [])].map(a => normalize(a));
     const correct = accepted_answers.includes(normalize(answer));
 
-    if(correct && req.session.student_id){
-        await StudentModel.findByIdAndUpdate(req.session.student_id, { $inc: { totalScore: 50 } });
+    if(req.session.student_id){
+        const inc = { "stats.totalAnswers": 1 };
+        if(correct) Object.assign(inc, { totalScore: 50, [`scoreBySubject.${question.subject}`]: 50, "stats.correctAnswers": 1 });
+        await StudentModel.findByIdAndUpdate(req.session.student_id, { $inc: inc });
     }
     res.status(200).json({ correct, correctAnswer: question.answer });
     }catch(err){
@@ -65,9 +68,9 @@ async function getKlasicno(req, res) {
         const total = await QuestionModel.countDocuments(filter);
         const questions = await QuestionModel.find(filter)
             .sort({ _id: 1 }).skip((page - 1) * 10).limit(10)
-            .select("-answer -acceptedAnswers");
+            .select("-acceptedAnswers").lean();
         if (!questions.length) return res.status(404).json({ error: "Za ta sklop ni vprašanj." });
-        res.json({ questions, page, total, hasNext: page * 10 < total });
+        res.json({ questions: questions.map(publicQuestion), page, total, hasNext: page * 10 < total });
     } catch (err) {
         console.error(err);
         res.status(500).json({ error: "Vprašanj ni bilo mogoče naložiti." });

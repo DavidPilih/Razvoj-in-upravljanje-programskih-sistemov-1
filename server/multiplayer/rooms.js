@@ -1,5 +1,6 @@
 const { randomBytes, randomInt } = require('node:crypto');
 const { GRADES, SUBJECTS } = require('../models/constants');
+const { choicesFor } = require('../utils/choices');
 
 const normalize = value => String(value).trim().toLowerCase().replaceAll(',', '.');
 
@@ -20,7 +21,7 @@ function createRooms({ loadQuestions, roundMs = 30000, revealMs = 4000, reconnec
                 answered: Boolean(p.answers[room.index]),
                 ...(reveal && { correct: p.answers[room.index]?.correct || false }),
             })),
-            question: question ? { id: String(question._id), text: question.text } : null,
+            question: question ? { id: String(question._id), text: question.text, ...(question.choices && { choices: question.choices }) } : null,
             submitted: Boolean(player.answers[room.index]),
             ...(reveal && question && { correctAnswer: question.answer }),
             ...(reveal && { yourAnswer: player.answers[room.index]?.answer || '' }),
@@ -138,7 +139,8 @@ function createRooms({ loadQuestions, roundMs = 30000, revealMs = 4000, reconnec
                 const questions = await loadQuestions(room.grade, room.subject);
                 if (questions.length !== 10) throw new Error('Za igro potrebujemo 10 vprašanj.');
                 if (!rooms.has(code)) return;
-                room.questions = questions;
+                // Shuffle once per game so every player sees the same order all round.
+                room.questions = questions.map(q => ({ ...q, choices: choicesFor(q) }));
                 nextRound(room);
             } catch (err) {
                 if (rooms.has(code)) { room.status = 'waiting'; broadcast(room); }

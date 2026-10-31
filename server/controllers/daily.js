@@ -2,6 +2,7 @@ const DailyChallengeModel = require("../models/DailyChallenge");
 const QuestionModel = require("../models/Question");
 const StudentModel = require("../models/Student");
 const { GRADES } = require("../models/constants");
+const { publicQuestion } = require("../utils/choices");
 
 function today() {
     return new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Ljubljana" });
@@ -47,9 +48,10 @@ async function getDaily(req, res) {
 
         const question = await QuestionModel
             .findById(daily.question)
-            .select("-answer -acceptedAnswers");
+            .select("-acceptedAnswers")
+            .lean();
 
-        res.status(200).json({ date, subject: daily.subject, question });
+        res.status(200).json({ date, subject: daily.subject, question: question && publicQuestion(question) });
     } catch (err) {
         console.error(err);
         res.status(500).json({ error: "Napaka na strežniku" });
@@ -68,8 +70,8 @@ async function getDailyQuiz(req, res) {
         const questions = await QuestionModel.aggregate([
             { $match: { grade, active: true } },
             { $sample: { size: 5 } },
-            { $project: { answer: 0, acceptedAnswers: 0 } },
-        ]);
+            { $project: { acceptedAnswers: 0 } },
+        ]).then(found => found.map(publicQuestion));
         if (questions.length < 5) {
             return res.status(404).json({ error: "Za ta razred še ni dovolj vprašanj." });
         }

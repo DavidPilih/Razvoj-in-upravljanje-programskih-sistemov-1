@@ -24,10 +24,12 @@ async function getLeaderboard(req, res) {
         }
 
         const filter = grade ? { grade } : {};
+        // duelRating is always included because the knight title shown next to the name follows ELO.
+        const fields = [...new Set(["nickname", "grade", "duelRating", field])].join(" ");
         const students = await StudentModel.find(filter)
             .sort({ [field]: -1, nickname: 1 })
             .limit(LIMIT)
-            .select(`nickname grade ${field}`)
+            .select(fields)
             .lean();
 
         // Only nicknames are public, because the students are minors.
@@ -41,17 +43,18 @@ async function getLeaderboard(req, res) {
                 nickname: student.nickname,
                 grade: student.grade,
                 value,
+                rating: student.duelRating,
                 me: String(student._id) === myId,
             });
         }
 
         let me = null;
         if (myId && !entries.some(entry => entry.me)) {
-            const student = await StudentModel.findById(myId).select(`nickname grade ${field}`).lean();
+            const student = await StudentModel.findById(myId).select(fields).lean();
             if (student && (!grade || student.grade === grade)) {
                 const value = valueOf(student, field);
                 const higher = await StudentModel.countDocuments({ ...filter, [field]: { $gt: value } });
-                me = { rank: higher + 1, nickname: student.nickname, grade: student.grade, value, me: true };
+                me = { rank: higher + 1, nickname: student.nickname, grade: student.grade, value, rating: student.duelRating, me: true };
             }
         }
 

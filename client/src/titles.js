@@ -1,14 +1,14 @@
-// Knight titles earned with total points (50 per correct answer).
+// Knight titles follow ELO (everyone starts at 1000), so a title can also be lost.
 export const titles = [
-  { name: 'Paž', points: 0 },
-  { name: 'Oproda', points: 500 },
-  { name: 'Vitez', points: 1500 },
-  { name: 'Baron', points: 3000 },
-  { name: 'Grof', points: 5000 },
-  { name: 'Vojvoda', points: 10000 },
+  { name: 'Paž', rating: 0 },
+  { name: 'Oproda', rating: 1050 },
+  { name: 'Vitez', rating: 1150 },
+  { name: 'Baron', rating: 1300 },
+  { name: 'Grof', rating: 1500 },
+  { name: 'Vojvoda', rating: 1750 },
 ]
 
-export function titleFor(points) {
-  const index = titles.findLastIndex(title => points >= title.points)
+export function titleFor(rating) {
+  const index = titles.findLastIndex(title => rating >= title.rating)
   return { current: titles[Math.max(index, 0)], next: titles[index + 1] }
 }

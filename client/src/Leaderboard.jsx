@@ -20,7 +20,7 @@ function Row({ entry, board }) {
   return <li className={`board-row${entry.me ? ' is-me' : ''}${entry.rank <= 3 ? ` is-top-${entry.rank}` : ''}`}>
     <span className="board-rank">{entry.rank}.</span>
     <span className="board-name">{entry.nickname}{entry.me ? ' (ti)' : ''}
-      <small>{entry.grade}. razred{board === 'total' ? ` · ${titleFor(entry.value).current.name}` : ''}</small>
+      <small>{entry.grade}. razred · {titleFor(entry.rating).current.name}</small>
     </span>
     <span className="board-value">{entry.value} {board === 'duel' ? 'ELO' : 't.'}</span>
   </li>

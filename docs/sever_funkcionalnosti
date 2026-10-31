@@ -32,5 +32,6 @@ PATCH  /api/profile  (prijava) { nickname, grade, classLabel } (vsa polja neobve
 
 LESTVICA
 GET    /api/leaderboard?by=total&grade=7  by: total/math/history/duel, grade neobvezno; vrne { entries, me } //NOVO
-       entries: top 20 { rank, nickname, grade, value, me }, samo vzdevki (otroci so mladoletni)
+       entries: top 20 { rank, nickname, grade, value, rating, me }, samo vzdevki (otroci so mladoletni)
+       rating = ELO, vedno prisoten (iz njega odjemalec izracuna viteski naziv)
        me: tvoja vrstica, ce si prijavljen in nisi v top 20, sicer null

@@ -79,7 +79,7 @@ export default function Profile({ onBack, onUpdate, onDeleted }) {
   </section>
 
   const { student, rank } = profile
-  const { current, next } = titleFor(student.totalScore)
+  const { current, next } = titleFor(student.duelRating)
   const { correctAnswers, totalAnswers } = student.stats
   const accuracy = totalAnswers ? Math.round(correctAnswers / totalAnswers * 100) : 0
 
@@ -95,8 +95,8 @@ export default function Profile({ onBack, onUpdate, onDeleted }) {
     <p className="intro">{student.firstName} {student.lastName} · {student.grade}. razred{student.classLabel ? ` · ${student.classLabel}` : ''}</p>
     <div className="title-progress">
       {next ? <>
-        <p>Do naziva <strong>{next.name}</strong> ti manjka še <strong>{next.points - student.totalScore}</strong> točk.</p>
-        <progress value={student.totalScore - current.points} max={next.points - current.points} aria-label={`Napredek do naziva ${next.name}`} />
+        <p>Do naziva <strong>{next.name}</strong> ti manjka še <strong>{next.rating - student.duelRating}</strong> ELO.</p>
+        <progress value={Math.max(0, student.duelRating - current.rating)} max={next.rating - current.rating} aria-label={`Napredek do naziva ${next.name}`} />
       </> : <p>Dosegel si najvišji naziv. Čestitke!</p>}
     </div>
     <dl className="stat-grid">

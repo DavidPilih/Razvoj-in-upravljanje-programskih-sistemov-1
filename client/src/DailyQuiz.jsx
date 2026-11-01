@@ -48,7 +48,7 @@ export function Choices({ choices, picked, correct, disabled, onPick }) {
   </div>
 }
 
-export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subtitle, treasure }) {
+export function Quiz({ grade, guest, onBack, path, title = 'Dnevni lov', onNext, subtitle, treasure }) {
   const [questions, setQuestions] = useState([])
   const [index, setIndex] = useState(0)
   const [answers, setAnswers] = useState([])
@@ -105,7 +105,7 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
         <ol className="results">{questions.map((item, position) => <li key={item._id}>
           <p>{item.text}</p>
           <span>Tvoj odgovor: {answers[position].answer} — <strong>{answers[position].correct ? 'Pravilno' : 'Napačno'}</strong></span>
-          {!answers[position].correct && answers[position].correctAnswer && <span>Pravilni odgovor: <strong>{answers[position].correctAnswer}</strong></span>}
+          {answers[position].answer !== answers[position].correctAnswer && answers[position].correctAnswer && <span>Pravilni odgovor: <strong>{answers[position].correctAnswer}</strong></span>}
         </li>)}</ol>
         {onNext && (hasNext ? <button className="primary-button" onClick={onNext}>Naslednji sklop (10 vprašanj)</button> : <p role="status">Rešil si vse sklope za izbrani razred in predmet.</p>)}
         <button className="text-button" onClick={onBack}>Nazaj na izbiro</button>
@@ -119,7 +119,7 @@ export function Quiz({ grade, guest, onBack, path, title = 'Daily', onNext, subt
         </form>}
         {feedback && <div className="feedback">
           <p role="status"><strong>{feedback.correct ? 'Pravilno!' : 'Odgovor ni pravilen.'}</strong>{feedback.eloChange !== undefined && <span className={`elo-change${feedback.eloChange < 0 ? ' is-loss' : ''}`}>{formatElo(feedback.eloChange)}</span>}</p>
-          {!feedback.correct && feedback.correctAnswer && <p>Pravilni odgovor: <strong>{feedback.correctAnswer}</strong></p>}
+          {feedback.answer !== feedback.correctAnswer && feedback.correctAnswer && <p>Pravilni odgovor: <strong>{feedback.correctAnswer}</strong></p>}
           <button className="primary-button" onClick={() => { setIndex(index + 1); setAnswer(''); setError('') }}>{index === questions.length - 1 ? 'Poglej rezultat' : 'Naslednje vprašanje'}</button>
         </div>}
       </> : null}

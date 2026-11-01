@@ -6,7 +6,7 @@ const { MIN_RATING, soloEloChange, clampRating } = require("../utils/scoring");
 
 
 //helper
-function normalize(str){ return str.trim().toLowerCase().replaceAll(",", ".")}
+const { isCorrectAnswer } = require("../utils/answers");
 
 async function getQuestions(req,res){
     try{
@@ -43,8 +43,7 @@ async function checkAnswer(req,res){
 
     if(!question || typeof answer !== "string" || !answer.trim()) return res.status(400).json({ error: "ni ok" });
 
-    const accepted_answers = [question.answer, ...(question.acceptedAnswers || [])].map(a => normalize(a));
-    const correct = accepted_answers.includes(normalize(answer));
+    const correct = isCorrectAnswer(question, answer);
 
     if(!req.session.student_id) return res.status(200).json({ correct, correctAnswer: question.answer });
 

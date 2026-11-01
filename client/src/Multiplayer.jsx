@@ -16,7 +16,7 @@ export default function Multiplayer({ mode, student, onBack }) {
   const socketRef = useRef(null)
   const sceneRef = useRef(null)
   const storageKey = `kviz-room-${mode}`
-  const title = mode === 'duel' ? '1v1' : 'Skupinsko'
+  const title = mode === 'duel' ? 'Viteški dvoboj' : 'Skupinsko'
 
   useEffect(() => {
     let active = true

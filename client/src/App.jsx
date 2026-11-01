@@ -155,7 +155,7 @@ function App() {
             </button>
             {[
               ['Skupinsko', 'Konjska dirka', 'Tekmuj s prijatelji v skupnem kvizu.', 'group', <Horse />],
-              ['1v1', 'Viteški dvoboj', 'Pomerita se v dvoboju znanja.', 'duel', <Swords />],
+              ['Viteški dvoboj', 'Ena na ena', 'Pomerita se v dvoboju znanja.', 'duel', <Swords />],
             ].map(([title, tag, description, gameMode, art]) => <button className={`quiz-choice choice-${gameMode}`} key={title} disabled={checking || busy} onClick={() => { setError(''); setMessage(''); setMultiplayer(gameMode) }}><span className="choice-art">{art}</span><span className="choice-title">{title}</span><span className="choice-tag">{tag}</span><span>{description}</span><span className="choice-action">Ustvari sobo ali se pridruži →</span></button>)}
           </div>
         </>}

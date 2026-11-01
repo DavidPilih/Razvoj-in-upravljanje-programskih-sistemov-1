@@ -1,6 +1,7 @@
 const { randomBytes, randomInt } = require('node:crypto');
 const { GRADES, SUBJECTS } = require('../models/constants');
 const { choicesFor } = require('../utils/choices');
+const { isCorrectAnswer } = require('../utils/answers');
 
 const normalize = value => String(value).trim().toLowerCase().replaceAll(',', '.');
 
@@ -173,7 +174,7 @@ function createRooms({ loadQuestions, finishDuel, roundMs = 30000, revealMs = 40
             if (data.questionId !== String(question._id)) throw new Error('To vprašanje ni več na vrsti.');
             if (player.answers[room.index]) throw new Error('Odgovor si že oddal.');
             if (typeof data.answer !== 'string' || !data.answer.trim() || data.answer.length > 500) throw new Error('Vnesi odgovor z največ 500 znaki.');
-            const correct = [question.answer, ...(question.acceptedAnswers || [])].some(a => normalize(a) === normalize(data.answer));
+            const correct = isCorrectAnswer(question, data.answer);
             player.answers[room.index] = { answer: data.answer.trim(), correct };
             if (correct) player.score += 1;
             // Scores become visible only once everyone has answered or time expires.

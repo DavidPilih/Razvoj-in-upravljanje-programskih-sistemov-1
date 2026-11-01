@@ -2,17 +2,23 @@
 @import '@fontsource/almendra/latin-ext-700.css';
 @import '@fontsource/almendra/400.css';
 @import '@fontsource/almendra/700.css';
-@import '@fontsource/nunito/latin-ext-400.css';
-@import '@fontsource/nunito/latin-ext-700.css';
-@import '@fontsource/nunito/400.css';
-@import '@fontsource/nunito/700.css';
 
-/* Almendra's old-style digits read as letters ("1v1" looks like "IVI"), so digits come from Nunito. */
+/* Use ordinary digits everywhere, including superscripts and subscripts. */
+@font-face {
+  font-family: 'Display Digits';
+  src: url('@fontsource/nunito/files/nunito-latin-400-normal.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0030-0039, U+00B2-00B3, U+00B9, U+2070, U+2074-2079, U+2080-2089;
+}
 @font-face {
   font-family: 'Display Digits';
   src: url('@fontsource/nunito/files/nunito-latin-700-normal.woff2') format('woff2');
-  font-weight: 400 700;
-  unicode-range: U+30-39;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+0030-0039, U+00B2-00B3, U+00B9, U+2070, U+2074-2079, U+2080-2089;
 }
 
 :root {
@@ -29,7 +35,7 @@
   --crimson-dark: #7e231d;
   --royal: #2f5fa8;
   --forest: #3f7d3a;
-  font-family: 'Nunito', Verdana, sans-serif;
+  font-family: var(--display);
   color: var(--ink);
   background: #bfe6f8 linear-gradient(#8fd0f2, #d9f1fb 70%) fixed;
   font-synthesis: none;
@@ -40,7 +46,7 @@
 @media (prefers-reduced-motion: no-preference) { :root { scroll-behavior: smooth; } }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 320px; }
-button, input, select { font: inherit; }
+button, input, select, textarea { font: inherit; }
 button { cursor: pointer; }
 button:disabled { cursor: wait; opacity: .6; }
 button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid var(--royal); outline-offset: 3px; }

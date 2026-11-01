@@ -54,7 +54,7 @@ export default function Leaderboard({ student, onBack }) {
       <option value="">Vsi razredi</option>
       {[7, 8, 9].map(value => <option key={value} value={value}>{value}. razred</option>)}
     </select></label>
-    {board === 'duel' && <p className="hint">Vsi začnejo s 1000 ELO. Pravilni odgovori ga dvignejo, napačni znižajo, v dvobojih 1v1 pa je zmaga proti močnejšemu nasprotniku vredna več.</p>}
+    {board === 'duel' && <p className="hint">Vsi začnejo s 1000 ELO. Pravilni odgovori ga dvignejo, napačni znižajo, v viteških dvobojih pa je zmaga proti močnejšemu nasprotniku vredna več.</p>}
     {error ? <>
       <p className="notice" role="alert">{error}</p>
       <button className="primary-button" onClick={() => { setError(''); setAttempt(attempt + 1) }}>Poskusi znova</button>
